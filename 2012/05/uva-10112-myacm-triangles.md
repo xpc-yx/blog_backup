@@ -124,11 +124,11 @@ double GetArea(int nOne, int nTwo, int nThree)
 
 int main()
 {
-    while (scanf("%d", nN), nN)
+    while (scanf("%d", &nN), nN)
     {
         for (int i = 0; i < nN; ++i)
         {
-            scanf("%s%d%d", points[i].szLabel, points[i].x, points[i].y);
+            scanf("%s%d%d", points[i].szLabel, &points[i].x, &points[i].y);
         }
 
         double fMaxArea = 0.0;

@@ -39,7 +39,7 @@ int GetMin(int nLow, int nCarry, int nNum)
 int main()
 {
     //freopen("out.txt", "w", stdout);
-    while (scanf("%d%d%d", nBase, nOneLow, nTwo) == 3)
+    while (scanf("%d%d%d", &nBase, &nOneLow, &nTwo) == 3)
     {
         printf("%d\n", GetMin(nOneLow, 0, 0) + 1);
     }

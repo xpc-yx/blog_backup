@@ -47,10 +47,10 @@ int main()
     int nK;
     int nTest;
 
-    scanf("%d", nTest);
+    scanf("%d", &nTest);
     while (nTest--)
     {
-        scanf("%d", nK);
+        scanf("%d", &nK);
         if (nK < 0)
         {
             nK *= -1;

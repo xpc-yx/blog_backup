@@ -87,7 +87,7 @@ out:
 
 int main()
 {
-    while (scanf("%d%d", nN, nB) == 2)
+    while (scanf("%d%d", &nN, &nB) == 2)
     {
         int nDigit = GetDigit(nN, nB);
         int nZero = GetZero(nN, nB);

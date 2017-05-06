@@ -29,12 +29,12 @@ int main()
     double c;
     double sum;
 
-    scanf("%d", nCases);
+    scanf("%d", &nCases);
 
     while (nCases--)
     {
-        scanf("%d", nN);
-        scanf("%lf%lf", a0, an1);
+        scanf("%d", &nN);
+        scanf("%lf%lf", &a0, &an1);
 
         sum = 0.0;
         memset(ci, 0, sizeof(ci));

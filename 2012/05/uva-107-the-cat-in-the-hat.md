@@ -24,7 +24,7 @@ int main()
     int nInitH, nOnes;
     int nN, n;
 
-    while (scanf("%d%d", nInitH, nOnes), nInitH + nOnes)
+    while (scanf("%d%d", &nInitH, &nOnes), nInitH + nOnes)
     {
         int nBeg = 1;
         int nEnd = nOnes;
