@@ -1,5 +1,5 @@
 ---
-title: NGUI概述（NGUI教程一）
+title: NGUI概述
 tags:
   - NGUI
   - 教程
