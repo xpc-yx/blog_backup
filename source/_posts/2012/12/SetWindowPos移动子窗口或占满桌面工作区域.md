@@ -5,8 +5,8 @@ tags:
   - SetWindowPos
 id: 591
 categories:
-  - MFC
   - UI框架
+  - MFC
 date: 2012-12-20 17:06:42
 ---
 

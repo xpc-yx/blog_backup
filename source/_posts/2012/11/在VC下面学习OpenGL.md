@@ -5,6 +5,8 @@ tags:
   - VC6
 id: 350
 categories:
+  - 图形图像
+  - 图形学
   - OpenGL
 date: 2012-11-06 20:10:35
 ---

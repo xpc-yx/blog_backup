@@ -2,6 +2,7 @@
 title: zoj 1081 Points Within - 改进弧长法判断点和简单多边形的关系
 id: 201
 categories:
+  - 算法
   - 计算几何
 date: 2012-06-26 17:00:00
 tags:

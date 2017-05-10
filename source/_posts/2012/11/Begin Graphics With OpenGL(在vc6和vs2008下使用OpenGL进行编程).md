@@ -7,6 +7,8 @@ tags:
   - 图形学
 id: 318
 categories:
+  - 图形图像
+  - 图形学
   - OpenGL
 date: 2012-11-04 23:12:00
 ---

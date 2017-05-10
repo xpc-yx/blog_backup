@@ -4,8 +4,8 @@ tags:
   - 从内存数据绘制位图
 id: 612
 categories:
-  - MFC
   - UI框架
+  - MFC
 date: 2012-12-26 10:06:47
 ---
 

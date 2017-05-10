@@ -4,7 +4,6 @@ tags:
   - Windows界面调用cmd不回显
 id: 93
 categories:
-  - MFC
   - UI框架
 date: 2012-01-03 10:00:00
 ---

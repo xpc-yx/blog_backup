@@ -4,6 +4,7 @@ tags:
   - Rabin-Karp
 id: 268
 categories:
+  - 算法
   - 字符串
 date: 2012-09-28 10:00:00
 ---

@@ -8,8 +8,8 @@ tags:
   - 程序入口
 id: 341
 categories:
+  - UI框架
   - MFC
-  - OpenGL
 date: 2012-11-06 19:53:00
 ---
 

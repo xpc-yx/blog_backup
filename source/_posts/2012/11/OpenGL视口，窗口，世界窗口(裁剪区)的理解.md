@@ -6,8 +6,9 @@ tags:
   - 视口
 id: 361
 categories:
-  - OpenGL
+  - 图形图像
   - 图形学
+  - OpenGL
 date: 2012-11-07 17:07:45
 ---
 

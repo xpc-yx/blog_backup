@@ -4,6 +4,7 @@ tags:
   - rmq
 id: 303
 categories:
+  - 算法
   - 数据结构
 date: 2012-10-25 18:30:00
 ---

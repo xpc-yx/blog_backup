@@ -4,8 +4,9 @@ tags:
   - 计算机图形学OpenGL版源代码
 id: 357
 categories:
-  - OpenGL
+  - 图形图像
   - 图形学
+  - OpenGL
 date: 2012-11-07 16:42:49
 ---
 
