@@ -5,8 +5,9 @@ tags:
   - 太阳系
 id: 799
 categories:
-  - OpenGL
+  - 图形图像
   - 图形学
+  - OpenGL
 date: 2013-05-06 22:01:17
 ---
 

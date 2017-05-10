@@ -5,6 +5,7 @@ tags:
   - windows8.1
 id: 944
 categories:
+  - 生活
   - 随想
 date: 2013-10-22 17:33:26
 ---

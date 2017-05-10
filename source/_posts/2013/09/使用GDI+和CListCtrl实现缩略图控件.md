@@ -6,8 +6,8 @@ tags:
   - 缩略图控件
 id: 900
 categories:
-  - MFC
   - UI框架
+  - MFC
 date: 2013-09-12 16:20:04
 ---
 

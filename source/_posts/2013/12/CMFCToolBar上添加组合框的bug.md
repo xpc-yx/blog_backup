@@ -7,8 +7,8 @@ tags:
   - CMFCToolBarComboBoxButton
 id: 1030
 categories:
-  - MFC
   - UI框架
+  - MFC
 date: 2013-12-21 20:04:29
 ---
 

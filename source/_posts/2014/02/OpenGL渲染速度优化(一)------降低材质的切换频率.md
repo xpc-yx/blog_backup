@@ -8,7 +8,8 @@ tags:
   - 纹理
 id: 1088
 categories:
-  - MFC
+  - 图形图像
+  - 图形学
   - OpenGL
 date: 2014-02-24 17:27:23
 ---

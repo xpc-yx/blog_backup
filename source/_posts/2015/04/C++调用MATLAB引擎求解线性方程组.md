@@ -6,9 +6,8 @@ tags:
   - 线性方程组
 id: 1552
 categories:
-  - C/C++
-  - MATLAB
   - 编程语言
+  - - C/C++
 date: 2015-04-12 13:13:45
 ---
 

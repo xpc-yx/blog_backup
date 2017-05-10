@@ -5,9 +5,9 @@ tags:
   - 教程
 id: 2163
 categories:
-  - NGUI
-  - Unity3d
   - 游戏开发
+  - - Unity3d
+  - - - NGUI
 date: 2017-01-12 17:15:51
 ---
 

@@ -6,8 +6,9 @@ tags:
   - 纹理
 id: 889
 categories:
-  - OpenGL
+  - 图形图像
   - 图形学
+  - OpenGL
 date: 2013-08-31 22:09:07
 ---
 

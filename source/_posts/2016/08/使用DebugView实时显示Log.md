@@ -6,7 +6,6 @@ tags:
   - 调试
 id: 2081
 categories:
-  - Tips
   - 编程语言
 date: 2016-08-15 20:48:18
 ---

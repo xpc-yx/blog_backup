@@ -6,9 +6,9 @@ tags:
   - 平滑滤波
 id: 1379
 categories:
-  - CUDA
-  - OpenCV
+  - 图形图像
   - 图像处理
+  - CUDA
 date: 2014-11-05 10:36:30
 ---
 

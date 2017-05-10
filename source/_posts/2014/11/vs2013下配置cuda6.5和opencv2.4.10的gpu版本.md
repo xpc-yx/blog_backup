@@ -6,8 +6,9 @@ tags:
   - OpenCv
 id: 1401
 categories:
+  - 图形图像
+  - 图像处理
   - CUDA
-  - OpenCV
 date: 2014-11-13 16:57:44
 ---
 

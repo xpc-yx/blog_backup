@@ -8,12 +8,9 @@ tags:
   - 框架
 id: 1518
 categories:
-  - CGAL
-  - OpenGL
-  - QT
-  - UI框架
-  - 三维模型处理
-  - 图形学
+  - 图形图像
+  - - 图形学
+  - - - OpenGL
 date: 2015-03-13 21:22:39
 ---
 

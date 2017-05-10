@@ -7,19 +7,18 @@ tags:
   - 稀疏矩阵
 id: 1492
 categories:
-  - C/C++
-  - MATLAB
   - 编程语言
+  - - C/C++
 date: 2015-01-20 21:43:19
 ---
 
-上一篇文章讲了如何用MATLAB计算稀疏矩阵的特征向量，但是我们最终的目的是使用C++达到这个需求。大致搜索了下，发现使用C++调用MATLAB计算引擎的方式最方便，就采用了，目前的计算速度和方便性都能满足要求。下面讲一下如何操作。
+上一篇文章讲了如何用MATLAB计算稀疏矩阵的特征向量，但是我们最终的目的是使用C\+\+达到这个需求。大致搜索了下，发现使用C++调用MATLAB计算引擎的方式最方便，就采用了，目前的计算速度和方便性都能满足要求。下面讲一下如何操作。
 
 1.首先是安装MATLAB，并且保证版本正确，比如32位程序只能调用32位的MATLAB，如我的机器是64位win8.1，所以必须强制安装32位的MATLAB，才能配合我用vs2010编写的32位程序。如果，我用vs2010开放64位程序，那么当然是可以使用64MATLAB的，但是配置64位开源库是个大工程，有些库并没有针对64位版本测试过。
 
 2.假设我的MATLAB安装在C:\Program Files (x86)\MATLAB下面，那么include目录是C:\Program Files (x86)\MATLAB\R2013a\extern\include，lib目录是C:\Program Files (x86)\MATLAB\R2013a\extern\lib\win32\microsoft，bin目录是C:\Program Files (x86)\MATLAB\R2013a\bin\win32。include和lib在vs里面设置好就行了，至于bin目录需要加入到path环境变量中，最后重启电脑生效，当然你一个个去找需要的dll也是可以的。
 
-3.配置好之后，就可以使用MATLAB引擎了。大致需要1>打开引擎，2>用C++创建变量，3>把变量对应到MATLAB命令中，4>执行MATLAB命令，5>将MATLAB变量传回C++这样的一些操作。比如，engOpen打开引擎，mxCreateSparse用于创建稀疏矩阵，engPutVariable将变量传入MATLAB，engEvalString执行命令，engGetVariable返回结果。具体怎么操作还是得参考相应教程。另外，可以用C++创建不同类型的变量，稀疏矩阵是比较特殊的一种。
+3.配置好之后，就可以使用MATLAB引擎了。大致需要1>打开引擎，2>用C\+\+创建变量，3>把变量对应到MATLAB命令中，4>执行MATLAB命令，5>将MATLAB变量传回C\+\+这样的一些操作。比如，engOpen打开引擎，mxCreateSparse用于创建稀疏矩阵，engPutVariable将变量传入MATLAB，engEvalString执行命令，engGetVariable返回结果。具体怎么操作还是得参考相应教程。另外，可以用C\+\+创建不同类型的变量，稀疏矩阵是比较特殊的一种。
 
 4.至于如何用MATLAB计算稀疏矩阵的特征向量，参阅上一篇文章。
 

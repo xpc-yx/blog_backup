@@ -4,6 +4,7 @@ tags:
   - CxBitmap
 id: 651
 categories:
+  - 图形图像
   - 图像处理
 date: 2013-01-03 14:31:25
 ---

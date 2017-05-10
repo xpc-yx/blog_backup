@@ -6,8 +6,9 @@ tags:
   - 视角坐标
 id: 1114
 categories:
-  - OpenGL
+  - 图形图像
   - 图形学
+  - OpenGL
 date: 2014-03-13 16:02:41
 ---
 

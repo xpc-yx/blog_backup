@@ -6,8 +6,9 @@ tags:
   - 渲染数据
 id: 1100
 categories:
-  - OpenGL
+  - 图形图像
   - 图形学
+  - OpenGL
 date: 2014-03-03 22:51:06
 ---
 

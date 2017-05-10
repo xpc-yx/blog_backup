@@ -6,9 +6,9 @@ tags:
   - 全屏抗锯齿
 id: 1071
 categories:
-  - MFC
-  - OpenGL
+  - 图形图像
   - 图形学
+  - OpenGL
 date: 2014-02-24 11:08:21
 ---
 

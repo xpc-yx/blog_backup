@@ -5,6 +5,7 @@ tags:
   - 'NULL'
 id: 1433
 categories:
+  - 编程语言
   - C/C++
 date: 2014-11-27 22:13:51
 ---

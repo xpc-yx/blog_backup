@@ -5,6 +5,7 @@ tags:
   - exit
 id: 1361
 categories:
+  - 编程语言
   - C/C++
 date: 2014-10-31 16:39:05
 ---

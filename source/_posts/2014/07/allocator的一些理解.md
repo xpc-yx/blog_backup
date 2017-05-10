@@ -4,6 +4,7 @@ tags:
   - allocator
 id: 1263
 categories:
+  - 编程语言
   - C/C++
   - STL
 date: 2014-07-31 10:52:54

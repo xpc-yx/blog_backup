@@ -5,8 +5,8 @@ tags:
   - wmplayer
 id: 764
 categories:
-  - MFC
   - UI框架
+  - MFC
 date: 2013-04-03 14:06:18
 ---
 

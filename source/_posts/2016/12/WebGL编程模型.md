@@ -5,6 +5,9 @@ tags:
   - 着色器
 id: 2155
 categories:
+  - 图形图像
+  - 图形学
+  - OpenGL
   - WebGL
 date: 2016-12-25 18:16:11
 ---

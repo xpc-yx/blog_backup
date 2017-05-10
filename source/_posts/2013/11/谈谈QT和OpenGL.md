@@ -7,11 +7,9 @@ tags:
   - Qt
 id: 953
 categories:
-  - CGAL
-  - OpenGL
-  - QT
-  - 三维模型处理
+  - 图形图像
   - 图形学
+  - OpenGL
 date: 2013-11-07 17:47:33
 ---
 

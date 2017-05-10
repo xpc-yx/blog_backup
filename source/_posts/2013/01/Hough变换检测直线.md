@@ -4,6 +4,7 @@ tags:
   - Hough变换
 id: 628
 categories:
+  - 图形图像 
   - 图像处理
 date: 2013-01-02 13:23:32
 ---

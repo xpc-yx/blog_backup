@@ -4,6 +4,7 @@ tags:
   - extern "C"
 id: 1301
 categories:
+  - 编程语言
   - C/C++
 date: 2014-08-15 20:55:40
 ---

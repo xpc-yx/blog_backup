@@ -7,8 +7,9 @@ tags:
   - OpenCv
 id: 1382
 categories:
-  - OpenCV
+  - 图形图像
   - 图像处理
+  - OpenCV
 date: 2014-11-07 14:10:54
 ---
 

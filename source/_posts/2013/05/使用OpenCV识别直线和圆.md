@@ -6,6 +6,8 @@ tags:
   - 识别直线
 id: 813
 categories:
+  - 图形图像
+  - 图像处理
   - OpenCV
 date: 2013-05-27 10:35:54
 ---

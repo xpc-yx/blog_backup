@@ -7,9 +7,9 @@ tags:
   - 调试
 id: 1109
 categories:
-  - MFC
-  - OpenGL
+  - 图形图像
   - 图形学
+  - OpenGL
 date: 2014-03-10 21:50:51
 ---
 

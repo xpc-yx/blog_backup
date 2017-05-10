@@ -6,6 +6,7 @@ tags:
   - placement new
 id: 1274
 categories:
+  - 编程语言
   - C/C++
 date: 2014-07-31 20:24:26
 ---

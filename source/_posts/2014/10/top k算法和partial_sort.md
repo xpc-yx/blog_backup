@@ -5,7 +5,6 @@ tags:
   - top k
 id: 1329
 categories:
-  - STL
   - 算法
 date: 2014-10-08 11:04:40
 ---

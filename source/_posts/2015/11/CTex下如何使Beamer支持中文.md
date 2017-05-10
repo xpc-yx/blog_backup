@@ -2,8 +2,8 @@
 title: CTex下如何使Beamer支持中文
 id: 1718
 categories:
-  - Tips
-  - 生产力
+  - 编程语言
+  - - CTex
 date: 2015-11-28 19:17:05
 tags:
 ---

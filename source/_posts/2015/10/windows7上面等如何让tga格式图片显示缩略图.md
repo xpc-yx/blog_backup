@@ -8,7 +8,6 @@ id: 1652
 comment: false
 categories:
   - Tips
-  - 游戏开发
 date: 2015-10-12 20:02:36
 ---
 

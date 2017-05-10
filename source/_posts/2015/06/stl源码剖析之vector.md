@@ -6,9 +6,9 @@ tags:
   - vector
 id: 1606
 categories:
-  - C/C++
-  - STL
   - 编程语言
+  - - C/C++
+  - - - STL
 date: 2015-06-10 11:44:42
 ---
 

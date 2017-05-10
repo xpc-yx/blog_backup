@@ -6,9 +6,8 @@ tags:
   - 定制浏览器弹窗
 id: 1804
 categories:
-  - MFC
   - UI框架
-  - 游戏开发
+  - - MFC
 date: 2016-04-21 21:06:41
 ---
 

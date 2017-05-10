@@ -5,8 +5,8 @@ tags:
   - 不规则窗口
 id: 1863
 categories:
-  - MFC
   - UI框架
+  - - MFC
 date: 2016-04-23 20:45:25
 ---
 

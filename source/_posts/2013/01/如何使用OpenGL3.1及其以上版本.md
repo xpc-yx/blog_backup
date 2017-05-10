@@ -5,8 +5,9 @@ tags:
   - OpenGL
 id: 672
 categories:
-  - OpenGL
+  - 图形图像
   - 图形学
+  - OpenGL
 date: 2013-01-09 22:10:34
 ---
 

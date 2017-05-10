@@ -7,7 +7,8 @@ tags:
   - 稀疏矩阵
 id: 1478
 categories:
-  - MATLAB
+  - 编程语言
+  - - MATLAB
 date: 2015-01-12 17:03:06
 ---
 
