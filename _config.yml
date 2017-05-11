@@ -78,10 +78,5 @@ deploy:
   type: git
   repo: git@github.com:xpc-yx/xpc-yx.github.io.git
   branch: master
-  
- # hexo-tag-cloud
-tag_cloud:
-    textFont: Trebuchet MS, Helvetica
-    textColour: \#333
-    textHeight: 20
-    outlineColour: \#E2E1D1
+
+excerpt_depth: 5
