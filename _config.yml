@@ -7,7 +7,7 @@ title: 远行's Life
 subtitle: STEP BY STEP
 description: 远行的博客
 author: 远行
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -78,3 +78,10 @@ deploy:
   type: git
   repo: git@github.com:xpc-yx/xpc-yx.github.io.git
   branch: master
+  
+ # hexo-tag-cloud
+tag_cloud:
+    textFont: Trebuchet MS, Helvetica
+    textColour: \#333
+    textHeight: 20
+    outlineColour: \#E2E1D1
