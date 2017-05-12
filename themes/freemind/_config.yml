@@ -22,18 +22,14 @@ menu:
     icon: "fa fa-user"
 
 links:
-  - title: Freemind
-    url: https://github.com/wzpan/freemind/
-    intro: "Freemind's Github repository."
+  - title: 远行's life wordpress
+    url: https://www.xpc-yx.com
+    intro: "远行's life wordpress站点"
     icon: "fa fa-github"
   - title: "My Github"
     url: https://github.com/xpc-yx
     intro: "My Github account."
     icon: "fa fa-github"
-  - title: "My LinkedIn"
-    url: http://www.linkedin.com/in/hahack
-    intro: "My Linkin account."
-    icon: "fa fa-linkedin"
 
 widgets:
 - search
@@ -42,7 +38,7 @@ widgets:
 - recent_posts  
 - links
 
-rss: 
+rss: atom.xml
 fancybox: true
 favicon: favicon.png
 duoshuo_shortname:
@@ -52,7 +48,7 @@ google_analytics:
   enable: false
   siteid:
 baidu_tongji:
-  enable: false
+  enable: true
   siteid:
 
 # search
@@ -61,4 +57,5 @@ baidu_tongji:
 # share widgets
 bdshare: true
 jiathis: false
+
 
