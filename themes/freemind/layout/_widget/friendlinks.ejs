@@ -1,0 +1,11 @@
+<% if (theme.friendlinks.length){ %>
+<div class="widget">
+	<h4><%= __('friendlinks') %></h4>
+	<ul class="blogroll list-unstyled">
+	<% for (var i in theme.friendlinks){ %>
+		<li><i class="<%- theme.friendlinks[i].icon %>"></i><a href="<%- theme.friendlinks[i].url %>" title="<%- theme.friendlinks[i].intro %>" target="_blank"]);"><%= theme.friendlinks[i].title %></a></li>
+	<% } %>
+	</ul>
+</div>
+<% } %>
+

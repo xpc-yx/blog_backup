@@ -1,27 +1,39 @@
-slogan: "STEP BY STEP"
+slogan: "随心而行"
 
 theme: bootstrap
 inverse: true
 
 menu:
-  - title: Archives
+  - title: "首页"
+    url: 
+    intro: "Homepage"
+    icon: "fa fa-home"
+  - title: "归档"
     url: archives
     intro: "All the articles."
     icon: "fa fa-archive"
-  - title: Categories
+  - title: "分类"
     url: categories
     intro: "All the categories."
     icon: "fa fa-folder"
-  - title: Tags
+  - title: "标签"
     url: tags
     intro: "All the tags."
     icon: "fa fa-tags"
+  - title: Wiki
+    url: wiki
+    intro: "笔记"
+    icon: "fa fa-tasks"
+  - title: "订阅"
+    url: "atom.xml"
+    intro: "订阅本站"
+    icon: "fa fa-rss"
   - title: About
     url: about
     intro: "About me."
     icon: "fa fa-user"
 
-links:
+selflinks:
   - title: 远行's life wordpress
     url: https://www.xpc-yx.com
     intro: "远行's life wordpress站点"
@@ -31,14 +43,36 @@ links:
     intro: "My Github account."
     icon: "fa fa-github"
 
+friendlinks:
+  - title: 远行's life wordpress
+    url: https://www.xpc-yx.com
+    intro: "远行's life wordpress站点"
+    icon: "fa fa-github"
+  - title: "My Github"
+    url: https://github.com/xpc-yx
+    intro: "My Github account."
+    icon: "fa fa-github"
+    
+adlinks:
+  - title: 远行's life wordpress
+    url: https://www.xpc-yx.com
+    intro: "远行's life wordpress站点"
+    icon: "fa fa-github"
+  - title: "My Github"
+    url: https://github.com/xpc-yx
+    intro: "My Github account."
+    icon: "fa fa-github"
+    
 widgets:
 - search
 - category
 - tagcloud
 - recent_posts  
-- links
+- selflinks
+- friendlinks
+- adlinks
 
-rss: atom.xml
+rss: "atom.xml"
 fancybox: true
 favicon: favicon.png
 duoshuo_shortname:
@@ -58,4 +92,11 @@ baidu_tongji:
 bdshare: true
 jiathis: false
 
+uyan: false
 
+#打赏
+donate:
+  enable: true
+  text: Enjoy it ? Donate me !  欣赏此文？求鼓励，求支持！
+  wechat: https://c1.staticflickr.com/8/7735/28088007526_175a52a7d4_n.jpg
+  alipay: https://c1.staticflickr.com/8/7388/27528799304_c1c54e95e6_n.jpg

@@ -2,8 +2,11 @@
 <section id="comment">
   <h2 class="title"><%= __('comment') %></h2>
 
-  <% if(theme.duoshuo_shortname) { %>
-  	 <div class="ds-thread" data-thread-key="<%- page.path %>" data-title="<%- page.title %>" data-url="<%- page.permalink %>"></div>  
+  <% if(theme.uyan) { %>
+  	 <!-- UY BEGIN -->
+	<div id="uyan_frame"></div>
+	<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2130469"></script>
+	<!-- UY END --> 
   <% } else if(config.disqus_shortname) { %>
   	 <div id="disqus_thread">
      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>

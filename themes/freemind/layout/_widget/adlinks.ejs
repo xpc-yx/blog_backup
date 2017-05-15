@@ -1,0 +1,11 @@
+<% if (theme.adlinks.length){ %>
+<div class="widget">
+	<h4><%= __('adlinks') %></h4>
+	<ul class="blogroll list-unstyled">
+	<% for (var i in theme.adlinks){ %>
+		<li><i class="<%- theme.adlinks[i].icon %>"></i><a href="<%- theme.adlinks[i].url %>" title="<%- theme.adlinks[i].intro %>" target="_blank"]);"><%= theme.adlinks[i].title %></a></li>
+	<% } %>
+	</ul>
+</div>
+<% } %>
+

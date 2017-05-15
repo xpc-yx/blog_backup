@@ -1,3 +1,4 @@
+home: 首页
 categories: 分类
 search: 搜索
 tags: 标签
@@ -13,4 +14,7 @@ recent_posts: 最新文章
 description: 摘要
 read_more: 阅读此文
 links: 链接
+selflinks: 个人链接
+friendlinks: 友情链接
+adlinks: 广告链接
 top: 置顶
