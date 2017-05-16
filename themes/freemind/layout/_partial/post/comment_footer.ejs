@@ -1,8 +1,15 @@
-<% if (theme.uyan) { %>
-	<!-- UY BEGIN -->
-	<div id="uyan_frame"></div>
-	<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2130469"></script>
-	<!-- UY END --> 
+<% if (theme.wangyiyun_gentie) { %>
+	<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+	<script src="https://img1.cache.netease.com/f2e/tie/yun/sdk/loader.js"></script>
+	<script>
+	var cloudTieConfig = {
+	url: document.location.href, 
+	sourceId: "",
+	productKey: "184a1500bf8c45e89119ed9036212dc3",
+	target: "cloud-tie-wrapper"
+	};
+	var yunManualLoad = true;
+	Tie.loader("aHR0cHM6Ly9hcGkuZ2VudGllLjE2My5jb20vcGMvbGl2ZXNjcmlwdC5odG1s", true);
 <% } else if (config.disqus_shortname){ %>
 <script type="text/javascript">
 var disqus_shortname = '<%= config.disqus_shortname %>';

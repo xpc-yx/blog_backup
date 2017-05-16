@@ -34,30 +34,18 @@ menu:
     icon: "fa fa-user"
 
 selflinks:
-  - title: 远行's life wordpress
-    url: https://www.xpc-yx.com
-    intro: "远行's life wordpress站点"
-    icon: "fa fa-github"
   - title: "My Github"
     url: https://github.com/xpc-yx
     intro: "My Github account."
     icon: "fa fa-github"
 
 friendlinks:
-  - title: 远行's life wordpress
-    url: https://www.xpc-yx.com
-    intro: "远行's life wordpress站点"
-    icon: "fa fa-github"
-  - title: "My Github"
-    url: https://github.com/xpc-yx
-    intro: "My Github account."
-    icon: "fa fa-github"
+  - title: klion26
+    url: http://www.klion26.com
+    intro: "klion26的博客"
+    icon: "fa fa-user"
     
 adlinks:
-  - title: 远行's life wordpress
-    url: https://www.xpc-yx.com
-    intro: "远行's life wordpress站点"
-    icon: "fa fa-github"
   - title: "My Github"
     url: https://github.com/xpc-yx
     intro: "My Github account."
@@ -75,7 +63,6 @@ widgets:
 rss: "atom.xml"
 fancybox: true
 favicon: favicon.png
-duoshuo_shortname:
 
 # Analytics
 google_analytics:
@@ -92,7 +79,7 @@ baidu_tongji:
 bdshare: true
 jiathis: false
 
-uyan: false
+wangyiyun_gentie: true
 
 #打赏
 donate:
