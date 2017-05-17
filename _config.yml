@@ -12,8 +12,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://xpc-yx.github.io
-root: /blog
+url: https://xpc-yx.github.io/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -76,7 +76,9 @@ theme: freemind
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:xpc-yx/xpc-yx.github.io.git
+  repo: 
+    github: git@github.com:xpc-yx/xpc-yx.github.io.git
+    coding: git@git.coding.net:xpc_yx/xpc_yx.coding.me.git
   branch: master
 
 excerpt_depth: 5

@@ -62,7 +62,7 @@ widgets:
 
 rss: "atom.xml"
 fancybox: true
-favicon: favicon.png
+favicon: favicon.ico
 
 # Analytics
 google_analytics:
@@ -87,3 +87,5 @@ donate:
   text: Enjoy it ? Donate me !  欣赏此文？求鼓励，求支持！
   wechat: https://c1.staticflickr.com/8/7735/28088007526_175a52a7d4_n.jpg
   alipay: https://c1.staticflickr.com/8/7388/27528799304_c1c54e95e6_n.jpg
+  
+homepage_url: http://xpc-yx.com
