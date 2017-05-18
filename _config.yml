@@ -78,7 +78,7 @@ deploy:
   type: git
   repo: 
     github: git@github.com:xpc-yx/xpc-yx.github.io.git
-    coding: git@git.coding.net:xpc_yx/xpc_yx.coding.me.git
+    #coding: git@git.coding.net:xpc_yx/xpc_yx.coding.me.git
   branch: master
 
 excerpt_depth: 5

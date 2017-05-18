@@ -20,10 +20,6 @@ menu:
     url: tags
     intro: "All the tags."
     icon: "fa fa-tags"
-  - title: Wiki
-    url: wiki
-    intro: "笔记"
-    icon: "fa fa-tasks"
   - title: "订阅"
     url: "atom.xml"
     intro: "订阅本站"
