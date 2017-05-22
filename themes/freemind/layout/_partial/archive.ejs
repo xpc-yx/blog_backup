@@ -57,6 +57,7 @@
 		   year = item.date.toDate().getFullYear();
 		   month = item.date.toDate().getMonth();	   
 		%>
+		<% if ((page.year == undefined && page.year == undefined) || (page.year == year && page.month == undefined) || (page.year == year && page.month == month + 1)) { %>
 		<% if (year != last_year){ %>
 			<% if (!is_first_year) { %>
 			</ul>
@@ -77,7 +78,8 @@
 		<% } else { %>
 		   <span class="title"><a href="<%- config.root %><%- item.path %>" <% if (item.description) { %> title="<%= item.description %>" <% } %>><%= item.title %></a></span>
 		<% } %>
-		</li>			
+		</li>
+		<% } %>		
 		<% }); %>
 		</ul>
 		</div>
