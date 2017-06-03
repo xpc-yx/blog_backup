@@ -5,39 +5,50 @@ inverse: true
 
 menu:
   - title: "首页"
+    localurl: true
     url: 
     intro: "Homepage"
     icon: "fa fa-home"
   - title: "归档"
+    localurl: true
     url: archives
     intro: "All the articles."
     icon: "fa fa-archive"
   - title: "分类"
+    localurl: true
     url: categories
     intro: "All the categories."
     icon: "fa fa-folder"
   - title: "标签"
+    localurl: true
     url: tags
     intro: "All the tags."
     icon: "fa fa-tags"
+  - title: "Wiki"
+    localurl: false
+    url: "http://wiki.xpc-yx.com"
+    intro: "维基"
+    icon: "fa fa-tasks"
   - title: "订阅"
+    localurl: true
     url: "atom.xml"
     intro: "订阅本站"
     icon: "fa fa-rss"
-  - title: About
-    url: about
-    intro: "About me."
-    icon: "fa fa-user"
-  - title: "Resume"
-    url: "resume"
-    intro: "简历"
-    icon: "fa fa-user"
-    
-mail:
-    title: "Mail"
+  - title: "Mail"
+    localurl: false
     url: "mailto:hank@xpc-yx.com"
     intro: "邮箱"
     icon: "fa fa-envelope-o"
+  - title: "Resume"
+    localurl: true
+    url: "resume"
+    intro: "简历"
+    icon: "fa fa-user"
+  - title: About
+    localurl: true
+    url: about
+    intro: "About me."
+    icon: "fa fa-user"
 
 selflinks:
   - title: "My Github"

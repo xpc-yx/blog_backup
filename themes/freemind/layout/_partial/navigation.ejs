@@ -11,17 +11,15 @@
 		<ul class="nav navbar-nav">
 		  <% theme.menu.forEach(function(m){ %>
 		  <li>
-			<a href="<%- config.root %><%- m.url %>" title="<%- m.intro %>">
+		    <% if (m.localurl) { %>
+				<a href="<%- config.root %><%- m.url %>" title="<%- m.intro %>">
+			<% } else { %>
+				<a href="<%- m.url %>" title="<%- m.intro %>">
+			<% } %>
 			  <i class="<%- m.icon %>"></i><%- m.title %>
 			</a>
 		  </li>
-		  <% }) %>
-		  
-		  <li>
-			<a href="<%- theme.mail.url %>" title="<%- theme.mail.intro %>">
-			  <i class="<%- theme.mail.icon %>"></i><%- theme.mail.title %>
-			</a>
-		  </li>
+		  <% }) %>  
 		</ul>
       </div>
     </div> <!-- container -->
