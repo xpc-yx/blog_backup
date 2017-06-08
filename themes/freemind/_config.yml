@@ -93,6 +93,7 @@ widgets:
 - friendlinks
 #- adlinks
 - calendar
+- revolverMaps
 
 rss: "atom.xml"
 fancybox: true
