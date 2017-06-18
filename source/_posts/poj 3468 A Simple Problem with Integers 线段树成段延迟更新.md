@@ -4,8 +4,7 @@ tags:
   - 树状数组
 id: 260
 categories:
-  - 算法
-  - 数据结构
+  - ACM-ICPC
 date: 2012-09-16 11:00:00
 ---
 

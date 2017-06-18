@@ -4,8 +4,7 @@ tags:
   - 最近点对
 id: 196
 categories:
-  - 算法
-  - 计算几何
+  - ACM-ICPC
 date: 2012-06-22 20:30:00
 ---
 

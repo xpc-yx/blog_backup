@@ -6,8 +6,7 @@ tags:
   - 大数加法
 id: 293
 categories:
-  - 算法
-  - 字符串
+  - ACM-ICPC
 date: 2012-10-20 18:30:00
 ---
 

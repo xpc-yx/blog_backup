@@ -4,8 +4,7 @@ tags:
   - DFA
 id: 284
 categories:
-  - 算法
-  - 字符串
+  - ACM-ICPC
 date: 2012-10-12 20:00:00
 ---
 

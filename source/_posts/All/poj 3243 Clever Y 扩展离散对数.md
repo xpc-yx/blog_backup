@@ -4,8 +4,7 @@ tags:
   - 扩展babystep
 id: 240
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-08-05 11:00:00
 ---
 

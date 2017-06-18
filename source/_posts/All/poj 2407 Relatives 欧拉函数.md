@@ -5,8 +5,7 @@ tags:
   - 欧拉函数
 id: 221
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-07-15 19:00:00
 ---
 

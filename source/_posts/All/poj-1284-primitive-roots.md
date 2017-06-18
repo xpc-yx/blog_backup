@@ -4,8 +4,7 @@ tags:
   - 原根的个数
 id: 231
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-07-25 16:30:00
 ---
 

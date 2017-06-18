@@ -4,8 +4,7 @@ tags:
   - 四叉树
 id: 179
 categories:
-  - 算法
-  - 数据结构
+  - ACM-ICPC
 date: 2012-06-08 18:30:00
 ---
 

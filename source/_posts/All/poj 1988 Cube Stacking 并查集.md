@@ -4,8 +4,7 @@ tags:
   - 并查集
 id: 278
 categories:
-  - 算法
-  - 数据结构
+  - ACM-ICPC
 date: 2012-10-10 10:00:00
 ---
 

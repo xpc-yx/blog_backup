@@ -4,8 +4,7 @@ tags:
   - 字典树
 id: 282
 categories:
-  - 算法
-  - 数据结构
+  - ACM-ICPC
 date: 2012-10-12 10:30:00
 ---
 

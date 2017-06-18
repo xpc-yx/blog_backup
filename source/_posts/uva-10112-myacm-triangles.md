@@ -4,8 +4,7 @@ tags:
   - 三角形面积最大
 id: 172
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-05-07 15:00:00
 ---
 

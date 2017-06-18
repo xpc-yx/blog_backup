@@ -5,8 +5,7 @@ tags:
   - dp
 id: 295
 categories:
-  - 算法
-  - 字符串
+  - ACM-ICPC
 date: 2012-10-21 11:30:00
 ---
 

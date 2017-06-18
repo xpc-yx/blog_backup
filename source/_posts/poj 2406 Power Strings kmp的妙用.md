@@ -4,8 +4,7 @@ tags:
   - kmp
 id: 270
 categories:
-  - 算法
-  - 字符串
+  - ACM-ICPC
 date: 2012-09-30 11:30:00
 ---
 

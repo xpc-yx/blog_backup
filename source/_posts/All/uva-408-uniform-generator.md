@@ -4,8 +4,7 @@ tags:
   - 数论
 id: 227
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-07-20 11:00:00
 ---
 

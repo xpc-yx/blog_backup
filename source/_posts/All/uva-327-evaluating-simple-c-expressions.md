@@ -4,8 +4,7 @@ tags:
   - 计算C语言表达式
 id: 181
 categories:
-  - 算法
-  - 模拟
+  - ACM-ICPC
 date: 2012-06-10 22:00:00
 ---
 

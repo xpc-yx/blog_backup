@@ -5,8 +5,7 @@ tags:
   - dfs
 id: 187
 categories:
-  - 算法
-  - 搜索
+  - ACM-ICPC
 date: 2012-06-16 14:00:00
 ---
 

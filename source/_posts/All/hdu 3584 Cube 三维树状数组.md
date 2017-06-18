@@ -4,8 +4,7 @@ tags:
   - 三维树状数组
 id: 254
 categories:
-  - 算法
-  - 数据结构
+  - ACM-ICPC
 date: 2012-09-10 11:30:00
 ---
 

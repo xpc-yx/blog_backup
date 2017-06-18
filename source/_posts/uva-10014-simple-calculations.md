@@ -4,8 +4,7 @@ tags:
   - 数列
 id: 167
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-05-03 12:00:00
 ---
 

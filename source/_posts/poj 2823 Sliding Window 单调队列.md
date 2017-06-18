@@ -4,8 +4,7 @@ tags:
   - 单调队列
 id: 248
 categories:
-  - 算法
-  - 数据结构
+  - ACM-ICPC
 date: 2012-09-02 10:00:00
 ---
 

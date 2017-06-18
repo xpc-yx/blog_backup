@@ -4,8 +4,7 @@ tags:
   - 二叉树
 id: 183
 categories:
-  - 算法
-  - 数据结构
+  - ACM-ICPC
 date: 2012-06-12 14:30:00
 ---
 

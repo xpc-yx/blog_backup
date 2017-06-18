@@ -5,8 +5,7 @@ tags:
   - 矩阵冥累加和
 id: 289
 categories:
-  - 算法
-  - 字符串
+  - ACM-ICPC
 date: 2012-10-18 18:00:00
 ---
 

@@ -4,8 +4,7 @@ tags:
   - 编码
 id: 61
 categories:
-  - 算法
-  - 模拟
+  - ACM-ICPC
 date: 2011-11-18 10:00:00
 ---
 

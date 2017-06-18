@@ -4,8 +4,7 @@ tags:
   - 次短路
 id: 250
 categories:
-  - 算法
-  - 图论
+  - ACM-ICPC
 date: 2012-09-03 10:00:00
 ---
 

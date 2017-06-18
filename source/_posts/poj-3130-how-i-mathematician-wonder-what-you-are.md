@@ -4,8 +4,7 @@ tags:
   - 多边形核心
 id: 207
 categories:
-  - 算法
-  - 计算几何
+  - ACM-ICPC
 date: 2012-07-03 12:30:00
 ---
 

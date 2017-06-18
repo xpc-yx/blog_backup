@@ -4,8 +4,7 @@ tags:
   - pick定理
 id: 203
 categories:
-  - 算法
-  - 计算几何
+  - ACM-ICPC
 date: 2012-06-28 16:00:00
 ---
 

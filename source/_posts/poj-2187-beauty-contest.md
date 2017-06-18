@@ -5,8 +5,7 @@ tags:
   - 最远点对
 id: 211
 categories:
-  - 算法
-  - 计算几何
+  - ACM-ICPC
 date: 2012-07-07 21:00:00
 ---
 

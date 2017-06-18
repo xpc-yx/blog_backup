@@ -4,8 +4,7 @@ tags:
   - 凸多边形放圆
 id: 205
 categories:
-  - 算法
-  - 计算几何
+  - ACM-ICPC
 date: 2012-06-30 20:00:00
 ---
 

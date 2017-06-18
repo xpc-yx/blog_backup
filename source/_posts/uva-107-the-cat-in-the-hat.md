@@ -5,8 +5,7 @@ tags:
   - 对数
 id: 174
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-05-07 19:00:00
 ---
 

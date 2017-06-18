@@ -5,8 +5,7 @@ tags:
   - 离散对数
 id: 229
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-07-22 13:30:00
 ---
 

@@ -4,8 +4,7 @@ tags:
   - 线性同余方程
 id: 225
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-07-18 10:00:00
 ---
 

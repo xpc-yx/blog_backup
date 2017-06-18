@@ -4,8 +4,7 @@ tags:
   - 大数
 id: 155
 categories:
-  - 算法
-  - 模拟
+  - ACM-ICPC
 date: 2012-04-03 10:00:00
 ---
 

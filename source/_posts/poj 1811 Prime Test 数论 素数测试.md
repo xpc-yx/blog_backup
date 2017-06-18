@@ -4,8 +4,7 @@ tags:
   - 素数测试
 id: 264
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-09-24 10:30:00
 ---
 

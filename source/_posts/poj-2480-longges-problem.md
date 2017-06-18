@@ -4,8 +4,7 @@ tags:
   - Σgcd(i n)(1<=i<=n)
 id: 233
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-07-31 17:00:00
 ---
 

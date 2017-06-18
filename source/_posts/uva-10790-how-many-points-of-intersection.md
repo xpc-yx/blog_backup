@@ -4,8 +4,7 @@ tags:
   - 直线不同交点计数
 id: 157
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-04-12 10:00:00
 ---
 

@@ -4,8 +4,7 @@ tags:
   - 背包问题变形
 id: 246
 categories:
-  - 算法
-  - 动态规划
+  - ACM-ICPC
 date: 2012-08-30 22:30:00
 ---
 

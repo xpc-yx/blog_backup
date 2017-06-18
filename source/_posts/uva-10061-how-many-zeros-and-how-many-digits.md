@@ -4,8 +4,7 @@ tags:
   - n!末尾多少个0
 id: 162
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-05-02 10:00:00
 ---
 

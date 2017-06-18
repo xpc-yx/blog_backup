@@ -5,8 +5,7 @@ tags:
   - 半平面交
 id: 209
 categories:
-  - 算法
-  - 计算几何
+  - ACM-ICPC
 date: 2012-07-05 18:30:00
 ---
 

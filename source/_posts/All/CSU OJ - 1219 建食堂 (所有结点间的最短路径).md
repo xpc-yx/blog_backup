@@ -4,8 +4,7 @@ tags:
   - 最短路径
 id: 74
 categories:
-  - 算法
-  - 图论
+  - ACM-ICPC
 date: 2011-12-04 10:00:00
 ---
 

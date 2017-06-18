@@ -5,8 +5,7 @@ tags:
   - 筛素数
 id: 213
 categories:
-  - 算法
-  - 数学
+  - ACM-ICPC
 date: 2012-07-09 22:00:00
 ---
 
