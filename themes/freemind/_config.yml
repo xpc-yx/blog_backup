@@ -123,7 +123,7 @@ donate:
   wechat: https://c1.staticflickr.com/8/7735/28088007526_175a52a7d4_n.jpg
   alipay: https://c1.staticflickr.com/8/7388/27528799304_c1c54e95e6_n.jpg
   
-homepage_title: 远行's Life Home
+homepage_title: 远行's Home
 homepage_url: http://home.xpc-yx.com
 
 # relate
@@ -137,6 +137,3 @@ wumii_siteprefix: http://xpc-yx.com
 # 日历云
 calendar:
   language: zh-CN
-  
-plugins:
-- hexo-generator-feed

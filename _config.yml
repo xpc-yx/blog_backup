@@ -88,3 +88,9 @@ archive_generator:
   yearly: true
   monthly: true
   daily: false
+
+sitemap:
+  path: sitemap.xml
+
+feed:
+  path: atom.xml
