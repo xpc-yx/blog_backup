@@ -92,5 +92,8 @@ archive_generator:
 sitemap:
   path: sitemap.xml
 
+baidusitemap:
+  path: baidusitemap.xml
+
 feed:
   path: atom.xml
