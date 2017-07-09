@@ -107,16 +107,14 @@ baidu_tongji:
   enable: true
   siteid: 0cbfd9e2bdfa2811095037fe17adf8ba
 
-# search
-swiftype_key: _D9wd4cuotsocQNPn-Ty
 
 # share widgets
 bdshare: true
 jiathis: false
 
-wangyiyun_gentie: false
+wangyiyun_gentie: true
 uyan: false
-hypercomments: true
+hypercomments: false
 
 #打赏
 donate:
@@ -125,17 +123,20 @@ donate:
   wechat: https://c1.staticflickr.com/8/7735/28088007526_175a52a7d4_n.jpg
   alipay: https://c1.staticflickr.com/8/7388/27528799304_c1c54e95e6_n.jpg
   
-homepage_title: 远行's Life
-homepage_url: http://xpc-yx.com
+homepage_title: 远行's Life Home
+homepage_url: http://home.xpc-yx.com
 
 # relate
 # 填写baidu_tuijian 或者 wumii ，如果不需要，不填即可
 relate_provider: wumii
 # 填写百度推荐提供的代码里的id，例如我的：hm_t_88638
-baidu_tuijian_id: 
+baidu_tuijian_id: hm_t_118192
 # 填写你的域名，例如我的：http://lupeng.me
-wumii_siteprefix: http://blog.xpc-yx.com
+wumii_siteprefix: http://xpc-yx.com
 
 # 日历云
 calendar:
   language: zh-CN
+  
+plugins:
+- hexo-generator-feed

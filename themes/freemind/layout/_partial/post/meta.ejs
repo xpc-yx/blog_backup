@@ -1,5 +1,39 @@
 <div class="col-md-3" id="post_meta"> 
 
+	<!-- 本地搜索 -->
+	<div id="site_search">
+	<div class="form-group">
+		<input type="text" id="local-search-input" name="q" results="0" placeholder="搜索" class="st-search-input st-default-search-input form-control"/>
+	</div>  
+	<div id="local-search-result"></div>
+	</div>
+	
+	<!-- 不蒜子访问量统计 -->
+	<div id="busuanzi_container_page_pv" class="meta-widget">
+	  <i class="fa fa-eye"></i>
+	  阅读 <span id="busuanzi_value_page_pv"></span>
+	</div>
+	
+	<!-- 网易云跟帖评论数 -->
+	<div class="meta-widget">
+	<a class="cloud-tie-join-count" href="javascript:void(0);">
+	  <i class="fa fa-commenting-o"></i>
+	  评论 <span class="join-count" style="color:#555; font-size:100%;">0</span>
+	</a>  
+	</div>
+	
+	<!-- hexo-wordcount 字数统计 -->
+	<div class="meta-widget">
+	<i class="fa fa-bar-chart"></i>
+	<span class="post-count">3,070</span>字
+	</div>
+  
+	<!-- hexo-wordcount 阅读时长预计 -->
+	<div class="meta-widget">
+	<i class="fa fa-hourglass-half"></i>
+	阅读预计<span class="post-count">12</span>分钟
+	</div>  
+	
 	<!-- date -->
 	<% if (item.date) { %>
 	<div class="meta-widget">
@@ -37,18 +71,5 @@
 		</div>
 	<% } %>
 	</div>
-	
-	<!-- read -->
-	<div class="meta-widget">
-	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-user"></i></a>		  
-    <ul id="tags" class="tag_box list-unstyled collapse in">	  
-		<span id="busuanzi_container_page_pv" style="color: #666; margin-left: 10px">
-          阅读量<span id="busuanzi_value_page_pv"></span>次
-		</span>
-    </ul>
-	</div>
-	</div>
-	
-    <hr>
 	
 </div><!-- col-md-3 -->

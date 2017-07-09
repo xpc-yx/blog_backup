@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 远行's Life Blog
+title: 远行's Life
 subtitle: STEP BY STEP
 description: 远行的博客
 author: 远行
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.xpc-yx.com
+url: http://xpc-yx.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -44,7 +44,7 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: 游戏开发
 category_map:
     Tips: Tips
     UI框架: UI框架
@@ -82,3 +82,9 @@ deploy:
   branch: master
 
 excerpt_depth: 5
+
+archive_generator:
+  per_page: 0  # 将每页文章数设为0，表示不需分页
+  yearly: true
+  monthly: true
+  daily: false
