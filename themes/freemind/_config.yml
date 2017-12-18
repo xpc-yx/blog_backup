@@ -39,16 +39,16 @@ menu:
     url: "mailto:hank@xpc-yx.com"
     intro: "邮箱"
     icon: "fa fa-envelope-o"
-  - title: "留言"
-    localurl: true
-    url: message
-    intro: "Leave a message."
-    icon: "fa fa-pencil"
   - title: "Resume"
     localurl: true
     url: "resume"
     intro: "简历"
     icon: "fa fa-user"
+  - title: "留言"
+    localurl: true
+    url: message
+    intro: "Leave a message."
+    icon: "fa fa-pencil"
   - title: About
     localurl: true
     url: about
