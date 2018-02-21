@@ -26,7 +26,7 @@ menu:
     icon: "fa fa-tags"
   - title: "Wiki"
     localurl: false
-    url: "http://wiki.xpc-yx.com"
+    url: "http://wiki.xiaopengcheng.top"
     intro: "维基"
     icon: "fa fa-tasks"
   - title: "订阅"
@@ -39,16 +39,16 @@ menu:
     url: "mailto:hank@xpc-yx.com"
     intro: "邮箱"
     icon: "fa fa-envelope-o"
-  - title: "Resume"
-    localurl: true
-    url: "resume"
-    intro: "简历"
-    icon: "fa fa-user"
   - title: "留言"
     localurl: true
     url: message
     intro: "Leave a message."
     icon: "fa fa-pencil"
+  - title: "Resume"
+    localurl: true
+    url: "resume"
+    intro: "简历"
+    icon: "fa fa-user"
   - title: About
     localurl: true
     url: about
@@ -129,7 +129,7 @@ donate:
   alipay: https://c1.staticflickr.com/8/7388/27528799304_c1c54e95e6_n.jpg
   
 homepage_title: 远行's Home
-homepage_url: http://home.xpc-yx.com
+homepage_url: http://home.xiaopengcheng.top
 
 # relate
 # 填写baidu_tuijian 或者 wumii ，如果不需要，不填即可
@@ -137,8 +137,8 @@ relate_provider: wumii
 # 填写百度推荐提供的代码里的id，例如我的：hm_t_88638
 baidu_tuijian_id: hm_t_118192
 # 填写你的域名，例如我的：http://lupeng.me
-wumii_siteprefix: http://xpc-yx.com
+wumii_siteprefix: http://xiaopengcheng.top
 
 # 日历云
 calendar:
-  language: zh-CN
+  language: zh-cn

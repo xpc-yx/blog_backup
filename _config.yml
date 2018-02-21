@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 远行's Life
+title: 远行's Blog
 subtitle: STEP BY STEP
 description: 远行的博客
 author: 远行
-language: zh-CN
+language: zh-cn
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://xpc-yx.com
+url: http://xiaopengcheng.top/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -20,9 +20,9 @@ permalink_defaults:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+tag_dir: all-tags
+archive_dir: all-archives
+category_dir: all-categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -70,7 +70,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: freemind
+theme: tranquilpeak
+post_assert_folder: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,7 +82,7 @@ deploy:
     #coding: git@git.coding.net:xpc_yx/xpc_yx.coding.me.git
   branch: master
 
-excerpt_depth: 5
+excerpt_depth: 2
 
 archive_generator:
   per_page: 0  # 将每页文章数设为0，表示不需分页
@@ -95,5 +96,27 @@ sitemap:
 baidusitemap:
   path: baidusitemap.xml
 
+algolia:
+  appId: "PBB76UVDLD"
+  apiKey: "420f506edca2c5290761c146d6bde3b2"
+  adminApiKey: "420f506edca2c5290761c146d6bde3b2"
+  chunkSize: 5000
+  indexName: "xiaopengcheng.top"
+  fields:
+    - title
+    - date
+    - permalink
+    - thumbnailImageUrl
+    - tags
+    - categories
+    - excerpt
+    - excerpt:strip
+    
 feed:
+  type: atom
   path: atom.xml
+  limit: 20
+  
+keywords:
+- ue4
+- c++
