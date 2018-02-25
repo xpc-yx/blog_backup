@@ -196,7 +196,7 @@ disqus_shortname:
 # Read https://github.com/imsun/gitment#get-started to setup Gitment
 gitment:
     # Switch
-    enable: true
+    enable: false
     # Your Github ID (Github username):
     github_id: xpc-yx
     # The repo to store comments:
@@ -222,7 +222,7 @@ gitalk:
 # Your Google analystics web property ID : UA-XXXXX-X
 google_analytics_id:
 # Your Baidu analystics web property ID : 9505a5af654a2478f93fd6c0ae4f687d
-baidu_analytics_id:
+baidu_analytics_id: 552f0001b2dc577904a1e67809b17b57
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
 gravatar_email:
 # Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
@@ -230,6 +230,8 @@ fb_admin_ids:
 # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
 fb_app_id:
 
+# share widgets
+bdshare: true
 
 # ---------------
 # Sharing options
@@ -239,9 +241,9 @@ fb_app_id:
 # If you wanna add a sharing option, read user documentation :
 # Tranquilpeak configuration > Theme configuration > sharing-options
 sharing_options:
-    #facebook:
-    #    icon: "fa-facebook-official"
-    #    url: "https://www.facebook.com/sharer/sharer.php?u={{post.permalink}}"
+    facebook:
+        icon: "fa-facebook-official"
+        url: "https://www.facebook.com/sharer/sharer.php?u={{post.permalink}}"
     #twitter:
     #    icon: "fa-twitter"
     #    url: "https://twitter.com/intent/tweet?text={{post.permalink}}"
@@ -261,10 +263,10 @@ sharing_options:
         title: "Qzone"
         icon: "fa-star"
         url: "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url={{post.permalink}}"
-    weixin:
-         title: "Weixin"
-         icon: "fa-weixin"
-         url: "http://widget.renren.com/dialog/share?resourceUrl={{post.permalink}}"
+    #weixin:
+    #     title: "Weixin"
+    #     icon: "fa-weixin"
+    #     url: "http://widget.renren.com/dialog/share?resourceUrl={{post.permalink}}"
     # Russian social networks
     # vk:
     #     title: "VK"
