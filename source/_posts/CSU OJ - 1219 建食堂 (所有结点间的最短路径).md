@@ -1,7 +1,7 @@
 ---
 title: 'CSU OJ - 1219: 建食堂 (所有结点间的最短路径)'
 tags:
-  - 最短路径
+  - 搜索
 id: 74
 categories:
   - ACM-ICPC

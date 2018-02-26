@@ -1,7 +1,7 @@
 ---
 title: Uva 465 - Overflow
 tags:
-  - 大数
+  - 数论
 id: 155
 categories:
   - ACM-ICPC

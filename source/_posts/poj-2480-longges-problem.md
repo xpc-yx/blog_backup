@@ -1,7 +1,7 @@
 ---
 title: poj 2480 Longge's problem
 tags:
-  - Σgcd(i n)(1<=i<=n)
+  - 数论
 id: 233
 categories:
   - ACM-ICPC

@@ -1,12 +1,9 @@
 ---
 title: Assimp与CGAL的联合使用问题
 tags:
-  - Assimp
-  - cgal
-  - 拓扑
+  - CGAL
 id: 957
 categories:
-  - 图形图像
   - 图形学
   - CGAL
 date: 2013-11-15 10:44:03

@@ -1,7 +1,6 @@
 ---
 title: 'POJ百练 - 2820:古代密码 AND POJ百练 - 2801:填词'
 tags:
-  - 编码
 id: 61
 categories:
   - ACM-ICPC

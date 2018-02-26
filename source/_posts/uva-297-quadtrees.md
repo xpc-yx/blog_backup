@@ -1,7 +1,7 @@
 ---
 title: uva 297 - Quadtrees
 tags:
-  - 四叉树
+  - 递归
 id: 179
 categories:
   - ACM-ICPC

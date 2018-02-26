@@ -1,7 +1,7 @@
 ---
 title: hnu 10076 Jimmy's Riddles DFA
 tags:
-  - DFA
+  - 自动机
 id: 284
 categories:
   - ACM-ICPC

@@ -1,7 +1,7 @@
 ---
 title: poj 2115 C Looooops 线性同余方程
 tags:
-  - 线性同余方程
+  - 数论
 id: 225
 categories:
   - ACM-ICPC

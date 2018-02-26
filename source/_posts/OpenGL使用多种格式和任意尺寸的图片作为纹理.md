@@ -1,12 +1,9 @@
 ---
 title: OpenGL使用多种格式和任意尺寸的图片作为纹理
 tags:
-  - OpenGL
-  - 图形学
   - 纹理
 id: 889
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2013-08-31 22:09:07

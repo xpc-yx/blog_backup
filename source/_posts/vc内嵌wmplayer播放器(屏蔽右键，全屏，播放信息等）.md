@@ -1,11 +1,9 @@
 ---
 title: vc内嵌wmplayer播放器(屏蔽右键，全屏，播放信息等）
 tags:
-  - vc
-  - wmplayer
+  - MFC
 id: 764
 categories:
-  - UI框架
   - MFC
 date: 2013-04-03 14:06:18
 ---

@@ -1,14 +1,10 @@
 ---
 title: PaintMeshCutting的实现
 tags:
-  - cgal
-  - OpenGL
-  - 三维模型分割
+  - 三维模型处理
 id: 892
 categories:
-  - 图形图像
   - 图形学
-  - 三维模型处理
 date: 2013-08-31 15:12:49
 ---
 

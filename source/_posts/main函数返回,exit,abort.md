@@ -1,11 +1,9 @@
 ---
 title: 'main函数返回,exit,abort'
 tags:
-  - abort
-  - exit
+  - exit函数
 id: 1361
 categories:
-  - 编程语言
   - C/C++
 date: 2014-10-31 16:39:05
 ---

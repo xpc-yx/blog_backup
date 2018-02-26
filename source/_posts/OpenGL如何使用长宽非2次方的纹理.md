@@ -1,12 +1,9 @@
 ---
 title: OpenGL如何使用长宽非2次方的纹理
 tags:
-  - OpenGL
-  - 图形学
   - 纹理
 id: 719
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2013-03-24 15:52:00

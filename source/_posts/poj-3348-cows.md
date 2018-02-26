@@ -2,7 +2,6 @@
 title: poj 3348 Cows
 tags:
   - 凸包
-  - 凸多边形面积
 id: 199
 categories:
   - ACM-ICPC

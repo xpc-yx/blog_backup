@@ -1,7 +1,7 @@
 ---
 title: uva 10177 - (2/3/4)-D Sqr/Rects/Cubes/Boxes?
 tags:
-  - 不同矩形(体 超体)计数
+  - 数学
 id: 160
 categories:
   - ACM-ICPC

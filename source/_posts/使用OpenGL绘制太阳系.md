@@ -2,10 +2,8 @@
 title: 使用OpenGL绘制太阳系
 tags:
   - OpenGL
-  - 太阳系
 id: 799
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2013-05-06 22:01:17

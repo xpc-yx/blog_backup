@@ -1,13 +1,9 @@
 ---
 title: MFC框架下OpenGL多重采样的bug
 tags:
-  - MFC
-  - OpenGL
   - 多重采样
-  - 调试
 id: 1109
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2014-03-10 21:50:51

@@ -2,11 +2,8 @@
 title: OpenGL视口点投影到视角空间及反投影
 tags:
   - OpenGL
-  - 视口坐标
-  - 视角坐标
 id: 1114
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2014-03-13 16:02:41

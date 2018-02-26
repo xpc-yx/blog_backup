@@ -1,11 +1,9 @@
 ---
 title: SetWindowPos移动子窗口或占满桌面工作区域
 tags:
-  - MFC
   - SetWindowPos
 id: 591
 categories:
-  - UI框架
   - MFC
 date: 2012-12-20 17:06:42
 ---

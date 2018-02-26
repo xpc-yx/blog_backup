@@ -1,7 +1,7 @@
 ---
 title: poj 1269 Intersecting Lines
 tags:
-  - 判断两条直线的关系
+  - 直线相交
 id: 193
 categories:
   - ACM-ICPC

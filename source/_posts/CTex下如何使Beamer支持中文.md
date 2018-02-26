@@ -2,10 +2,10 @@
 title: CTex下如何使Beamer支持中文
 id: 1718
 categories:
-  - 编程语言
-  - - CTex
+  - 生活
 date: 2015-11-28 19:17:05
 tags:
+  - CTex
 ---
 
 我使用的是windows下的最新版CTex，版本号是CTeX_2.9.2.164_Full.exe。注意使用full版本，如果不是，可能不支持beamer。beamer是一个流行的演讲文档模板，有多种主题，效果也还不错。

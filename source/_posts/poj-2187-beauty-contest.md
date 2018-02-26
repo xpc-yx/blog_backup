@@ -1,8 +1,7 @@
 ---
 title: poj 2187 Beauty Contest
 tags:
-  - 旋转卡壳
-  - 最远点对
+  - 凸包
 id: 211
 categories:
   - ACM-ICPC

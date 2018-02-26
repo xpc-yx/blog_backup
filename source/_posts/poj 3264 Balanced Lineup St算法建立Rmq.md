@@ -1,7 +1,7 @@
 ---
 title: poj 3264 Balanced Lineup St算法建立Rmq
 tags:
-  - rmq
+  - 动态规划
 id: 303
 categories:
   - ACM-ICPC

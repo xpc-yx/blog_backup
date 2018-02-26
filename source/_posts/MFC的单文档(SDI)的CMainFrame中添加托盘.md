@@ -1,13 +1,10 @@
 ---
 title: MFC的单文档(SDI)的CMainFrame中添加托盘
 tags:
-  - MFC消息
-  - 弹出菜单
-  - 托盘
+  - 系统托盘
 id: 1096
 categories:
-  - UI框架
-  - - MFC
+  - MFC
 date: 2014-02-26 17:32:31
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: poj 1401 Factorial
 tags:
-  - n!末尾多少个0
 id: 223
 categories:
   - ACM-ICPC

@@ -1,10 +1,8 @@
 ---
 title: 计算机图形学OpenGL版第三章源代码汇总
 tags:
-  - 计算机图形学OpenGL版源代码
 id: 364
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2012-11-07 22:41:48

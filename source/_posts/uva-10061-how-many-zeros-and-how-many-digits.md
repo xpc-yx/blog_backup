@@ -1,7 +1,7 @@
 ---
 title: uva 10061 - How many zero's and how many digits ?
 tags:
-  - n!末尾多少个0
+  - 数学
 id: 162
 categories:
   - ACM-ICPC

@@ -1,10 +1,8 @@
 ---
 title: 使用STL容器的一些常识
 tags:
-  - stl
 id: 505
 categories:
-  - 编程语言
   - C/C++
   - STL
 date: 2012-11-28 14:26:55

@@ -1,9 +1,7 @@
 ---
 title: poj 1625 Censored! AC自动机 + DP + 大数加法
 tags:
-  - AC自动机
-  - dp
-  - 大数加法
+  - 自动机
 id: 293
 categories:
   - ACM-ICPC

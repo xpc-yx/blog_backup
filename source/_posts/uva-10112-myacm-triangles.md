@@ -1,7 +1,6 @@
 ---
 title: uva 10112 - Myacm Triangles
 tags:
-  - 三角形面积最大
 id: 172
 categories:
   - ACM-ICPC

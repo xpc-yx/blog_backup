@@ -1,14 +1,8 @@
 ---
 title: OpenGL渲染速度优化(一)------降低材质的切换频率
 tags:
-  - MFC
-  - OpenGL
-  - 材质
-  - 渲染速度
-  - 纹理
 id: 1088
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2014-02-24 17:27:23

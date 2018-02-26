@@ -1,11 +1,9 @@
 ---
 title: stl源码剖析之queue
 tags:
-  - queue
   - stl源码剖析
 id: 1455
 categories:
-  - 编程语言
   - C/C++
   - STL
 date: 2014-12-31 11:03:28

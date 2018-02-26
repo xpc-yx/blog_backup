@@ -1,14 +1,9 @@
 ---
 title: Console工程下如何不显示控制台黑窗口只显示Windows窗口
 tags:
-  - OpenGL
-  - VC6
-  - VS2008
   - 控制台
-  - 程序入口
 id: 341
 categories:
-  - UI框架
   - MFC
 date: 2012-11-06 19:53:00
 ---

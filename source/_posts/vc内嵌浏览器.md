@@ -1,11 +1,9 @@
 ---
 title: vc内嵌浏览器
 tags:
-  - MFC
-  - 浏览器
+  - CWebBrowser2
 id: 751
 categories:
-  - UI框架
   - MFC
 date: 2013-03-30 19:35:11
 ---

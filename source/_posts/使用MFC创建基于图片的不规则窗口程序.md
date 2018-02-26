@@ -2,11 +2,9 @@
 title: 使用MFC创建基于图片的不规则窗口程序
 tags:
   - MFC
-  - 不规则窗口
 id: 1863
 categories:
-  - UI框架
-  - - MFC
+  - MFC
 date: 2016-04-23 20:45:25
 ---
 

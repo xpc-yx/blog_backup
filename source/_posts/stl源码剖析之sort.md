@@ -1,16 +1,11 @@
 ---
 title: stl源码剖析之sort
 tags:
-  - insert_sort
-  - intro_sort
-  - parital_sort
-  - sort
   - stl源码剖析
 id: 1562
 categories:
-  - 编程语言
-  - - C/C++
-  - - - STL
+  - C/C++
+  - STL
 date: 2015-04-22 15:58:48
 ---
 

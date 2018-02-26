@@ -1,13 +1,11 @@
 ---
 title: 使用CGAL实现平面分割三维模型
 tags:
-  - cgal
+  - CGAL
   - OpenGL
   - 三维模型处理
-  - 图形学
 id: 863
 categories:
-  - 图形图像
   - 图形学
   - CGAL
 date: 2013-08-05 21:29:42

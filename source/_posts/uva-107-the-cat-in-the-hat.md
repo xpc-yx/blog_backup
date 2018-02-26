@@ -2,7 +2,7 @@
 title: uva 107 - The Cat in the Hat
 tags:
   - 二分
-  - 对数
+  - 数学
 id: 174
 categories:
   - ACM-ICPC

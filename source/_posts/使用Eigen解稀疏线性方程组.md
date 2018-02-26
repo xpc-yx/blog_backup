@@ -1,14 +1,11 @@
 ---
 title: 使用Eigen解稀疏线性方程组
 tags:
-  - eigen
-  - QR分解
-  - 稀疏矩阵
-  - 线性方程组
+  - Eigen
+  - 稀疏线性方程组
 id: 1560
 categories:
-  - 编程语言 
-  - - C/C++
+  - C/C++
 date: 2015-04-22 14:41:39
 ---
 

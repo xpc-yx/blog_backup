@@ -1,7 +1,7 @@
 ---
 title: poj 3243 Clever Y 扩展离散对数
 tags:
-  - 扩展babystep
+  - 数论
 id: 240
 categories:
   - ACM-ICPC

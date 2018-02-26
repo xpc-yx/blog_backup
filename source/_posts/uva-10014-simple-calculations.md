@@ -1,7 +1,7 @@
 ---
 title: uva 10014 - Simple calculations
 tags:
-  - 数列
+  - 数学
 id: 167
 categories:
   - ACM-ICPC

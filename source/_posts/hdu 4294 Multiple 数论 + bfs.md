@@ -1,7 +1,7 @@
 ---
 title: hdu 4294 Multiple 数论 + bfs
 tags:
-  - bfs
+  - 搜索
   - 数论
 id: 262
 categories:

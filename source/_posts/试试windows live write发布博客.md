@@ -1,7 +1,6 @@
 ---
 title: 试试windows live write发布博客
 tags:
-  - windows live write
 id: 1707
 categories:
   - 生活

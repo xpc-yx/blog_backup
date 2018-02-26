@@ -1,8 +1,7 @@
 ---
 title: hnu 2243 考研路茫茫——单词情结 AC自动机+矩阵冥累加和
 tags:
-  - AC自动机
-  - 矩阵冥累加和
+  - 自动机
 id: 289
 categories:
   - ACM-ICPC

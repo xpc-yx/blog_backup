@@ -1,13 +1,9 @@
 ---
 title: opencv实现快速傅立叶变换和逆变换
 tags:
-  - dft
-  - idft
-  - Mat
-  - OpenCv
+  - 傅立叶变换
 id: 1382
 categories:
-  - 图形图像
   - 图像处理
   - OpenCV
 date: 2014-11-07 14:10:54

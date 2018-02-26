@@ -2,7 +2,6 @@
 title: poj 3525 Most Distant Point from the Sea
 tags:
   - 二分
-  - 半平面交
 id: 209
 categories:
   - ACM-ICPC

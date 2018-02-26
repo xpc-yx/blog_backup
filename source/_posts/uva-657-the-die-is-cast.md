@@ -1,8 +1,7 @@
 ---
 title: uva 657 - The die is cast
 tags:
-  - bfs
-  - dfs
+  - 搜索
 id: 187
 categories:
   - ACM-ICPC

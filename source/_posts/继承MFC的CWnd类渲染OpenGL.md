@@ -1,12 +1,8 @@
 ---
 title: 继承MFC的CWnd类渲染OpenGL
 tags:
-  - CWnd
-  - MFC
-  - OpenGL
 id: 1054
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2014-02-15 11:12:31

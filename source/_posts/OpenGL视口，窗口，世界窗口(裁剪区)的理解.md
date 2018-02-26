@@ -1,12 +1,8 @@
 ---
 title: OpenGL视口，窗口，世界窗口(裁剪区)的理解
 tags:
-  - OpenGL
-  - 世界窗口
-  - 视口
 id: 361
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2012-11-07 17:07:45

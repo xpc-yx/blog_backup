@@ -1,14 +1,10 @@
 ---
 title: 使用Matlab计算稀疏矩阵的特征向量
 tags:
-  - MATLAB
-  - 特征值
   - 特征向量
-  - 稀疏矩阵
 id: 1478
 categories:
-  - 编程语言
-  - - MATLAB
+  - MATLAB
 date: 2015-01-12 17:03:06
 ---
 

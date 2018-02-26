@@ -1,15 +1,10 @@
 ---
 title: WebGL介绍
 tags:
-  - Canvas
-  - HTML5
-  - JavaScript
   - WebGL
 id: 2050
 categories:
-  - 图形图像
   - 图形学
-  - OpenGL
   - WebGL
 date: 2016-07-09 22:22:43
 ---

@@ -1,11 +1,9 @@
 ---
 title: stl源码剖析之stack
 tags:
-  - stack
   - stl源码剖析
 id: 1461
 categories:
-  - 编程语言
   - C/C++
   - STL
 date: 2014-12-31 11:22:15

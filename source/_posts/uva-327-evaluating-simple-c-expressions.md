@@ -1,7 +1,7 @@
 ---
 title: uva 327 - Evaluating Simple C Expressions
 tags:
-  - 计算C语言表达式
+  - 字符串
 id: 181
 categories:
   - ACM-ICPC

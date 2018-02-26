@@ -1,14 +1,11 @@
 ---
 title: opencv gpu或者cuda加速第一次调用
 tags:
-  - cuda
-  - gpu
-  - OpenCv
+  - CUDA
 id: 1395
 categories:
-  - 图形图像
   - 图像处理
-  - OpenCV
+  - CUDA
 date: 2014-11-11 15:29:48
 ---
 

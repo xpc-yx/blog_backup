@@ -1,14 +1,11 @@
 ---
 title: 分享下我的OpenGL，CGAL，Boost库
 tags:
-  - Boost
-  - cgal
-  - OpenGL
-  - 图形学
+  - CGAL
 id: 857
 categories:
-  - 图形图像
   - 图形学
+  - OpenGL
 date: 2013-07-30 13:10:55
 ---
 

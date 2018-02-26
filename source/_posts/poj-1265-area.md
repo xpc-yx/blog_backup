@@ -1,7 +1,6 @@
 ---
 title: poj 1265 Area
 tags:
-  - pick定理
 id: 203
 categories:
   - ACM-ICPC

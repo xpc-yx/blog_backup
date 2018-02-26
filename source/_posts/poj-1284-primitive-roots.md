@@ -1,7 +1,7 @@
 ---
 title: poj 1284 Primitive Roots
 tags:
-  - 原根的个数
+  - 数论
 id: 231
 categories:
   - ACM-ICPC

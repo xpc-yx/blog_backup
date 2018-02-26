@@ -1,12 +1,10 @@
 ---
 title: 使用GDI+和CListCtrl实现缩略图控件
 tags:
-  - CListCtrl
   - GDI+
   - 缩略图控件
 id: 900
 categories:
-  - UI框架
   - MFC
 date: 2013-09-12 16:20:04
 ---

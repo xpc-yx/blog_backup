@@ -1,13 +1,10 @@
 ---
 title: 谈谈QT和OpenGL
 tags:
-  - Assimp
-  - cgal
+  - CGAL
   - OpenGL
-  - Qt
 id: 953
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2013-11-07 17:47:33

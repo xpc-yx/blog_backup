@@ -1,8 +1,7 @@
 ---
 title: poj 2551 Ones and poj 2262 Goldbach's Conjecture
 tags:
-  - 同余
-  - 筛素数
+  - 数论
 id: 213
 categories:
   - ACM-ICPC

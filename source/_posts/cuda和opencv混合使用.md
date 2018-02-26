@@ -1,11 +1,9 @@
 ---
 title: cuda和opencv混合使用
 tags:
-  - cuda
-  - OpenCv
+  - CUDA
 id: 1374
 categories:
-  - 图形图像
   - 图像处理
   - CUDA
 date: 2014-11-03 17:29:29

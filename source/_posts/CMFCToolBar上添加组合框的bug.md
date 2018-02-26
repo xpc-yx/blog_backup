@@ -1,13 +1,10 @@
 ---
 title: CMFCToolBar上添加组合框的bug
 tags:
-  - CBS_DROPDOWN
-  - CBS_DROPDOWNLIST
   - CMFCToolBar
   - CMFCToolBarComboBoxButton
 id: 1030
 categories:
-  - UI框架
   - MFC
 date: 2013-12-21 20:04:29
 ---

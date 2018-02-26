@@ -1,13 +1,9 @@
 ---
 title: 使用CGAL实现简单的模型分割
 tags:
-  - cgal
-  - 分割模型
-  - 模型编辑
-  - 欧拉操作
+  - CGAL
 id: 869
 categories:
-  - 图形图像
   - 图形学
   - CGAL
 date: 2013-08-05 22:00:43

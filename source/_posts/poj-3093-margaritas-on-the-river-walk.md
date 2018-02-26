@@ -1,7 +1,7 @@
 ---
 title: poj 3093 Margaritas on the River Walk
 tags:
-  - 背包问题变形
+  - 背包问题
 id: 246
 categories:
   - ACM-ICPC

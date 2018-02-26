@@ -1,8 +1,7 @@
 ---
 title: poj 2417 Discrete Logging
 tags:
-  - babystep
-  - 离散对数
+  - 数论
 id: 229
 categories:
   - ACM-ICPC

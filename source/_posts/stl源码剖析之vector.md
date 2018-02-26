@@ -1,14 +1,11 @@
 ---
 title: stl源码剖析之vector
 tags:
-  - C++
-  - stl
-  - vector
+  - stl源码剖析
 id: 1606
 categories:
-  - 编程语言
-  - - C/C++
-  - - - STL
+  - C/C++
+  - STL
 date: 2015-06-10 11:44:42
 ---
 

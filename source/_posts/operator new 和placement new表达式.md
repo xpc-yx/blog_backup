@@ -1,12 +1,8 @@
 ---
 title: operator new 和placement new表达式
 tags:
-  - operator delete
-  - operator new
-  - placement new
 id: 1274
 categories:
-  - 编程语言
   - C/C++
 date: 2014-07-31 20:24:26
 ---

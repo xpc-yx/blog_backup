@@ -1,7 +1,7 @@
 ---
 title: poj 1006 Biorhythms 中国剩余定理
 tags:
-  - 中国剩余定理
+  - 数论
 id: 272
 categories:
   - ACM-ICPC

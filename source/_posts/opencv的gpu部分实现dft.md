@@ -1,13 +1,9 @@
 ---
 title: opencv的gpu部分实现dft
 tags:
-  - dft
-  - GpuMat
-  - idft
-  - OpenCv
+  - 傅立叶变换
 id: 1390
 categories:
-  - 图形图像
   - 图像处理
   - OpenCV
 date: 2014-11-10 14:47:45

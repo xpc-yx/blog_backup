@@ -1,17 +1,11 @@
 ---
 title: stl源码剖析之heap
 tags:
-  - heap
-  - make_heap
-  - pop_heap
-  - push_heap
-  - sort_heap
   - stl源码剖析
 id: 1466
 categories:
-  -  编程语言
-  - - C/C++
-  - - - STL
+  - C/C++
+  - STL
 date: 2015-01-01 13:59:33
 ---
 

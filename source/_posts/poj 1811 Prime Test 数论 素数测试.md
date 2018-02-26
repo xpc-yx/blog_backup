@@ -1,7 +1,7 @@
 ---
 title: poj 1811 Prime Test 数论 素数测试
 tags:
-  - 素数测试
+  - 数论
 id: 264
 categories:
   - ACM-ICPC

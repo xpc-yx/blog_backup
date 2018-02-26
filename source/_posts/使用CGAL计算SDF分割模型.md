@@ -1,17 +1,11 @@
 ---
 title: 使用CGAL计算SDF分割模型
 tags:
-  - cgal
-  - gmm
-  - graph-cut
-  - k-means
-  - sdf
-  - 三维模型分割
+  - CGAL
 id: 1497
 categories:
-  - 图形图像
-  - - 图形学
-  - - - CGAL
+  - 图形学
+  - CGAL
 date: 2015-01-22 20:28:12
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: uva 10790 - How Many Points of Intersection?
 tags:
-  - 直线不同交点计数
+  - 直线相交
 id: 157
 categories:
   - ACM-ICPC

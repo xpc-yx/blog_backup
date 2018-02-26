@@ -1,10 +1,8 @@
 ---
 title: 计算机图形学OpenGL版第五章代码汇总
 tags:
-  - 计算机图形学OpenGL版源代码
 id: 392
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2012-11-12 21:13:34

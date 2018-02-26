@@ -2,11 +2,9 @@
 title: 使用DebugView实时显示Log
 tags:
   - DebugView
-  - Log
-  - 调试
 id: 2081
 categories:
-  - 编程语言
+  - C/C++
 date: 2016-08-15 20:48:18
 ---
 

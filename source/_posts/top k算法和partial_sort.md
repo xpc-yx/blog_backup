@@ -1,7 +1,6 @@
 ---
 title: top k算法和partial_sort
 tags:
-  - partial_sort
   - top k
 id: 1329
 categories:

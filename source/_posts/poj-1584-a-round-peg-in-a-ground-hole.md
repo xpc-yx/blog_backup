@@ -1,7 +1,6 @@
 ---
 title: poj 1584 A Round Peg in a Ground Hole
 tags:
-  - 凸多边形放圆
 id: 205
 categories:
   - ACM-ICPC

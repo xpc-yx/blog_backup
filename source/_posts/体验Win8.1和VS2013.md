@@ -1,8 +1,6 @@
 ---
 title: 体验Win8.1和VS2013
 tags:
-  - vs2013
-  - windows8.1
 id: 944
 categories:
   - 生活

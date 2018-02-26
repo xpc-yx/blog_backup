@@ -1,7 +1,7 @@
 ---
 title: poj 3294 Life Forms 后缀数组求至少出现在K个字符串中的最长公共子串
 tags:
-  - 后缀数组
+  - 最长公共子串
 id: 299
 categories:
   - ACM-ICPC

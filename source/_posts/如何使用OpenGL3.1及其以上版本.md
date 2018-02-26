@@ -1,11 +1,10 @@
 ---
 title: 如何使用OpenGL3.1及其以上版本
 tags:
-  - glew 1.9.0
+  - Glew
   - OpenGL
 id: 672
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2013-01-09 22:10:34

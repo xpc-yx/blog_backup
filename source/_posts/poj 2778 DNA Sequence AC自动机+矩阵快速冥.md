@@ -1,8 +1,7 @@
 ---
 title: poj 2778 DNA Sequence AC自动机+矩阵快速冥
 tags:
-  - AC自动机
-  - 矩阵快速冥
+  - 自动机
 id: 287
 categories:
   - ACM-ICPC

@@ -1,8 +1,6 @@
 ---
 title: hdu 3627 Giant For
 tags:
-  - map
-  - set
 id: 215
 categories:
   - ACM-ICPC

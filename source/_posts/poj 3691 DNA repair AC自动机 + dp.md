@@ -1,8 +1,7 @@
 ---
 title: poj 3691 DNA repair AC自动机 + dp
 tags:
-  - AC自动机
-  - dp
+  - 自动机
 id: 295
 categories:
   - ACM-ICPC

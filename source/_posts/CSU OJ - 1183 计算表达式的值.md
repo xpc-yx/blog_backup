@@ -1,7 +1,7 @@
 ---
 title: 'CSU OJ - 1183: 计算表达式的值'
 tags:
-  - 递归计算表达式
+  - 递归
 id: 136
 categories:
   - ACM-ICPC

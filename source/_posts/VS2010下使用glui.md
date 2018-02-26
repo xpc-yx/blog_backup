@@ -1,11 +1,9 @@
 ---
 title: VS2010下使用glui
 tags:
-  - glui
-  - vs2010
+  - Glui
 id: 840
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2013-06-18 09:56:07

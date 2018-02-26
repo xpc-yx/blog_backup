@@ -1,7 +1,7 @@
 ---
 title: poj 1200 Crazy Search 字符串hash
 tags:
-  - 字符串hash
+  - 字符串
 id: 266
 categories:
   - ACM-ICPC

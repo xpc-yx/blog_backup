@@ -2,12 +2,9 @@
 title: scaleform中从unrealscript往actionscript传输数据的方式
 tags:
   - scaleform
-  - unrealscript
-  - 数据传输
 id: 1666
 categories:
-  - 游戏开发
-  - - 虚幻引擎
+  - 虚幻引擎
 date: 2015-10-17 16:06:18
 ---
 

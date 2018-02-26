@@ -2,7 +2,6 @@
 title: poj 2407 Relatives 欧拉函数
 tags:
   - 数论
-  - 欧拉函数
 id: 221
 categories:
   - ACM-ICPC

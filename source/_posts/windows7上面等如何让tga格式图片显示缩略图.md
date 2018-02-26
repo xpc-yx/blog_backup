@@ -1,13 +1,11 @@
 ---
 title: windows7上面等如何让tga格式图片显示缩略图
 tags:
-  - tga
-  - windows7
-  - 缩略图
+  - tga缩略图
 id: 1652
 comment: false
 categories:
-  - Tips
+  - 生活
 date: 2015-10-12 20:02:36
 ---
 

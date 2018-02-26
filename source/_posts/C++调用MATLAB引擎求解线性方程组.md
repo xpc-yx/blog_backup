@@ -1,13 +1,10 @@
 ---
 title: C++调用MATLAB引擎求解线性方程组
 tags:
-  - C++
-  - MATLAB
   - 线性方程组
 id: 1552
 categories:
-  - 编程语言
-  - - C/C++
+  - C/C++
 date: 2015-04-12 13:13:45
 ---
 

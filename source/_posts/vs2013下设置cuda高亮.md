@@ -1,12 +1,9 @@
 ---
 title: vs2013下设置cuda高亮
 tags:
-  - cuda
-  - vs2013
-  - 高亮
+  - CUDA
 id: 1368
 categories:
-  - 图形图像
   - 图像处理
   - CUDA
 date: 2014-11-03 17:12:40

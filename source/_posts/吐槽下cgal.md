@@ -1,11 +1,9 @@
 ---
 title: 吐槽下cgal
 tags:
-  - cgal
-  - 图形学
+  - CGAL
 id: 853
 categories:
-  - 图形图像
   - 图形学
   - CGAL
 date: 2013-07-26 15:20:27

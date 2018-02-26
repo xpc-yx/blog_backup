@@ -1,7 +1,7 @@
 ---
 title: poj 3461 Oulipo Rabin-Karp 字符串匹配
 tags:
-  - Rabin-Karp
+  - 字符串
 id: 268
 categories:
   - ACM-ICPC

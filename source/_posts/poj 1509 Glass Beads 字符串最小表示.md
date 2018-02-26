@@ -1,7 +1,7 @@
 ---
 title: poj 1509 Glass Beads 字符串最小表示
 tags:
-  - 字符串最小表示
+  - 字符串
 id: 291
 categories:
   - ACM-ICPC

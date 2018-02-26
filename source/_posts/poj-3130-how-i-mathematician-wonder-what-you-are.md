@@ -1,7 +1,6 @@
 ---
 title: poj 3130 How I Mathematician Wonder What You Are!
 tags:
-  - 多边形核心
 id: 207
 categories:
   - ACM-ICPC

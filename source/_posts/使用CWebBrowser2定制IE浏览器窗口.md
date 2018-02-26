@@ -2,12 +2,9 @@
 title: 使用CWebBrowser2定制IE浏览器窗口
 tags:
   - CWebBrowser2
-  - 内嵌IE浏览器
-  - 定制浏览器弹窗
 id: 1804
 categories:
-  - UI框架
-  - - MFC
+  - MFC
 date: 2016-04-21 21:06:41
 thumbnailImage: https://farm2.staticflickr.com/1575/25953542404_086b3470a8_o.png
 ---

@@ -1,16 +1,12 @@
 ---
 title: 说说我的QT下使用OpenGL渲染Mesh的框架
 tags:
-  - cgal
-  - mesh
+  - CGAL
   - OpenGL
-  - Qt
-  - 框架
 id: 1518
 categories:
-  - 图形图像
-  - - 图形学
-  - - - OpenGL
+  - 图形学
+  - OpenGL
 date: 2015-03-13 21:22:39
 ---
 

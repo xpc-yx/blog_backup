@@ -1,7 +1,7 @@
 ---
 title: uva 10562 - Undraw the Trees
 tags:
-  - 二叉树
+  - 递归
 id: 183
 categories:
   - ACM-ICPC

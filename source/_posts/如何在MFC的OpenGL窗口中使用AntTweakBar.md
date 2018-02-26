@@ -1,12 +1,10 @@
 ---
 title: 如何在MFC中使用AntTweakBar
 tags:
-  - AntTweakBar
   - MFC
   - OpenGL
 id: 1131
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2014-04-27 13:05:04

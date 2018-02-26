@@ -1,7 +1,7 @@
 ---
 title: hdu 3584 Cube 三维树状数组
 tags:
-  - 三维树状数组
+  - 树状数组
 id: 254
 categories:
   - ACM-ICPC

@@ -1,10 +1,9 @@
 ---
 title: 如何将内存中的位图数据绘制在DC上
 tags:
-  - 从内存数据绘制位图
+  - MFC
 id: 612
 categories:
-  - UI框架
   - MFC
 date: 2012-12-26 10:06:47
 ---

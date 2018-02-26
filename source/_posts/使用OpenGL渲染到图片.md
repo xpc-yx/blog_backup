@@ -2,11 +2,8 @@
 title: 使用OpenGL渲染到图片
 tags:
   - OpenGL
-  - 渲染图片
-  - 渲染数据
 id: 1100
 categories:
-  - 图形图像
   - 图形学
   - OpenGL
 date: 2014-03-03 22:51:06

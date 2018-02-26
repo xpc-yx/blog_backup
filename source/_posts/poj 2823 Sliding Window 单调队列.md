@@ -1,7 +1,6 @@
 ---
 title: poj 2823 Sliding Window 单调队列
 tags:
-  - 单调队列
 id: 248
 categories:
   - ACM-ICPC

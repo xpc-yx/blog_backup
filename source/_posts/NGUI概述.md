@@ -2,12 +2,10 @@
 title: NGUI概述
 tags:
   - NGUI
-  - 教程
 id: 2163
 categories:
-  - 游戏开发
-  - - Unity3d
-  - - - NGUI
+  - Unity3d
+
 date: 2017-01-12 17:15:51
 feature: https://c1.staticflickr.com/1/782/31420422424_657c6cee61_o.png
 toc: true

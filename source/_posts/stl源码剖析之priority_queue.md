@@ -1,11 +1,9 @@
 ---
 title: stl源码剖析之priority_queue
 tags:
-  - priority_queue
   - stl源码剖析
 id: 1445
 categories:
-  - 编程语言
   - C/C++
   - STL
 date: 2014-12-29 10:59:24

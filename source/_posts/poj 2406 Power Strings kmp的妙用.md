@@ -1,7 +1,7 @@
 ---
 title: poj 2406 Power Strings kmp的妙用
 tags:
-  - kmp
+  - 字符串
 id: 270
 categories:
   - ACM-ICPC
