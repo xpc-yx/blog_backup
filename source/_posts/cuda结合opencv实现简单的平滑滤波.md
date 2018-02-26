@@ -1,7 +1,8 @@
 ---
 title: cuda结合opencv实现简单的平滑滤波
 tags:
-  - 平滑滤波
+  - CUDA
+  - 滤波
 id: 1379
 categories:
   - 图像处理

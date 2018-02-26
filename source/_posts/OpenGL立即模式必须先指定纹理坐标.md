@@ -1,6 +1,7 @@
 ---
 title: OpenGL立即模式必须先指定纹理坐标
 tags:
+  - 纹理
 id: 1338
 categories:
   - 图形学

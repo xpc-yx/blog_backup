@@ -2,6 +2,7 @@
 title: OpenGL渲染Obj模型(模型·材质·纹理)
 tags:
   - obj模型
+  - 纹理
 id: 692
 categories:
   - 图形学

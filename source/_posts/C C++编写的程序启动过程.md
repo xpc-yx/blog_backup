@@ -1,8 +1,7 @@
 ---
 title: C/C++编写的程序启动过程
 tags:
-  - C/C++
-  - C++程序启动
+  - 程序启动
 id: 1754
 categories:
   - C/C++
