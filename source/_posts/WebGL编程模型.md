@@ -11,77 +11,77 @@ date: 2016-12-25 18:16:11
 
 本文主要介绍编写一个原生的WebGL程序需要哪些步骤。
 
-# WebGL程序的软件结构
+## WebGL程序的软件结构
 
 默认情况下，一个动态网页程序只包括HTML和JavaScript两种语言。
 而在WebGL程序中，还包括了第三种语言：GLSL ES。
 
 ![enter description here](https://c1.staticflickr.com/1/417/31743655591_e5815e1579_o.png)
 
-# WebGL编程模型
+## WebGL编程模型
 
 ![enter description here](https://c1.staticflickr.com/1/502/31050538443_ca9377f3a2_o.png)
 上图表示一个WebGL程序运行的主要流程。主要分为3个阶段，应用程序阶段、着色器阶段、片元后处理阶段。
 本文接下来按照一定的规律介绍编写一个原生WebGL程序主要的步骤。
 
-## 获得WebGL渲染环境
+### 获得WebGL渲染环境
 
-### 在Html中定义canvas标签
+#### 在Html中定义canvas标签
 
 ``` stylus
 <canvas id="webgl" width="400" height="400"> </canvas>
 ```
 
-### 在JS代码中获得canvas对象
+#### 在JS代码中获得canvas对象
 
 ``` stylus
 var canvas = document.getElementById('webgl');
 ```
-### 通过canvas对象获得WebGL渲染环境
+#### 通过canvas对象获得WebGL渲染环境
 
 ``` stylus
 var gl = getWebGLContext(canvas);
 ```
 
-## 编写着色器
+### 编写着色器
 
-### 编写顶点着色器
+#### 编写顶点着色器
 
 顶点着色器是用来描述顶点属性（比如位置、颜色、纹理坐标等的程序）
 ![enter description here](https://c1.staticflickr.com/1/441/31822594876_583f762171_o.png)
 
-### 编写片元着色器
+#### 编写片元着色器
 
 片元着色器处理光栅后的数据，可以片元将其理解为像素。
 片元着色器的输出构成了最终的像素值（开启多重采样的话只构成了某个像素的一部分值）
 ![enter description here](https://c1.staticflickr.com/1/771/31822601086_e8b7848d25_o.png)
 
-## 初始化着色器
+### 初始化着色器
 
 初始化着色器基本上是一个固定的流程，主要分为以下几个步骤。
 
-### 创建shader
+#### 创建shader
 
-### 加载shader源码
+#### 加载shader源码
 
-### 编译shader
+#### 编译shader
 
-### 创建程序
+#### 创建程序
 
-### 附加编译好的shader
+#### 附加编译好的shader
 
-### 链接程序
+#### 链接程序
 
-### 使用程序
+#### 使用程序
 
-## 获得顶点属性
+### 获得顶点属性
 
 顶点上有各种属性，比如空间坐标、纹理坐标、材质等，一个顶点就是一个属性集合。
 如下图所示的立方体，顶点上有2个属性，坐标和颜色。
 ![enter description here](https://c1.staticflickr.com/1/280/31487505630_7c7a69ed2f_o.png)
 顶点属性可以通过读取模型文件，比如obj文件等获得，或者简单写在代码定义中，比如上图的立方体。
 
-## 创建顶点缓冲区
+### 创建顶点缓冲区
 
 缓冲区存在于显存中，能够被显卡直接用来进行渲染，不需要进行数据传输。
 在WebGL中，通过以下调用获得一个缓冲区对象。
@@ -90,20 +90,20 @@ var gl = getWebGLContext(canvas);
 var vertexColorBuffer = gl.createBuffer();
 ```
 
-## 写入顶点数据到顶点缓冲区对象
+### 写入顶点数据到顶点缓冲区对象
 
 这个步骤分为两个操作。
 
-### 首先，绑定创建的缓冲区
+#### 首先，绑定创建的缓冲区
 ``` cpp
 gl.bindBuffer(gl.ARRAY_BUFFER, vertexColorBuffer);
 ```
 
-### 然后，传输系统内存中上的顶点数据到缓冲区（显存中）
+#### 然后，传输系统内存中上的顶点数据到缓冲区（显存中）
 ``` cpp
 gl.bufferData(gl.ARRAY_BUFFER, verticesColors, gl.STATIC_DRAW);
 ```
-### 传输数据的标志
+#### 传输数据的标志
 
 gl.bufferData的第三个参数表示数据的使用标志，表示三种不同的应用场景。
 1\. gl.STATIC_DRAW ：表示数据不会经常改变，通常用于静态物体，比如地形、墙体等。
@@ -113,7 +113,7 @@ gl.bufferData的第三个参数表示数据的使用标志，表示三种不同�
 系统会根据usage标示符为缓冲区对象分配最佳的存储位置。
 STATIC_DRAW和STREAM_DRAW分配在显存上，DYNAMIC_DRAW可能分配在AGP中。
 
-## 将顶点数据传输到顶点着色器
+### 将顶点数据传输到顶点着色器
 
 目前，我们已经准会了WebGL渲染环境，并且数据已经从系统内存传输到显存中的缓冲区对象中。现在，我们要将缓存区对象中的数据指定给顶点着色器中对应的变量。
 顶点着色器中的attribute变量对象顶点的属性。我们的顶点着色器中定义了2个变量，a_Position，a_Color。下面我们分为三步为这其指定数据。
@@ -138,7 +138,7 @@ gl.vertexAttribPointer(a_Position, 3, gl.FLOAT, false, FSIZE * 6, FSIZE * 3);
 ```
 FSIZE表示float的大小。
 
-## 传入uniform变量到着色器
+### 传入uniform变量到着色器
 
 着色器中还存在一种uniform变量，这种变量对于所有顶点来说都是一样的。
 比如，mvp矩阵就应该定义为uniform变量。一般情况，我们在js代码中计算好mvp矩阵，然后传输到着色器中的uniform变量中。主要步骤如下：
@@ -163,7 +163,7 @@ gl.uniformMatrix4fv(u_MvpMatrix, false, mvpMatrix.elements);
 
 目前，顶点着色器已经有了每个顶点的属性，以及用uniform变量表示的mvp矩阵，因此可以变换顶点属性后传入片元着色器中进一步处理。
 
-## 定义面片索引
+### 定义面片索引
 
 上面我们处理的数据都是顶点属性，但是我们实际要绘制的图元是面片，比如三角面片。
 通常情况下，我们会用三个顶点索引表示一个三角面片。
@@ -184,7 +184,7 @@ var indices = new Uint8Array([
 
 indices表示一个立方体的面片索引。
 
-## 创建索引缓冲区，写入索引
+### 创建索引缓冲区，写入索引
 
 接下来，我们要创建索引缓冲区，并将内存中的索引数据传入缓存区。
 1\. 创建索引缓冲区
@@ -205,7 +205,7 @@ gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, indexBuffer);
 gl.bufferData(gl.ELEMENT_ARRAY_BUFFER, indices, gl.STATIC_DRAW);
 ```
 
-## 根据索引绘制图元
+### 根据索引绘制图元
 
 最后一步只需要根据面片索引绘制图元即可。
 根据面片的顶点索引绘制图元节省内存，不需要存储重复的顶点数据。
@@ -217,7 +217,7 @@ gl.drawElements(gl.TRIANGLES, n, gl.UNSIGNED_BYTE, 0);
 
 其中，第二个参数n表示要绘制的图元（三角形面片）个数。最后一个参数0表示使用已经绑定好的索引缓冲区对象。
 
-## 完整代码
+### 完整代码
 
 下面给出绘制一个彩色立方体的完整代码。
 

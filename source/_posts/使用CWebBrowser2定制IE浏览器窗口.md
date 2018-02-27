@@ -19,7 +19,7 @@ thumbnailImage: https://farm2.staticflickr.com/1575/25953542404_086b3470a8_o.png
 
 下面介绍一些关于实现该弹窗浏览器的Tips。
 
-###  一、如何获得CWebBrowser2
+##  一、如何获得CWebBrowser2
 
 方法1：网络搜索下载，比如我以前的一篇博文里面有下载链接：vc内嵌浏览器。
 
@@ -27,7 +27,7 @@ thumbnailImage: https://farm2.staticflickr.com/1575/25953542404_086b3470a8_o.png
 
 为了定制浏览器窗口，我继承了该类，自定义了浏览器窗口类CYXBrwser。
 
-### 二、让浏览器窗口适应对话框窗口大小
+## 二、让浏览器窗口适应对话框窗口大小
 
 在对话框类的OnInitDialog()函数中，添加如下代码：
 
@@ -43,7 +43,7 @@ m_pBrowser->Create(TEXT("NZBrowser"), WS_CHILD | WS_VISIBLE, rect, this, MY_IEBR
 ```
 注意，rect的大小需要调节来获得需要的效果。
 
-###  三、屏蔽右键
+##  三、屏蔽右键
 
 有种比较的方法是在PreTranslateMessage中过滤WM_RBUTTONDOWN消息。
 
@@ -61,7 +61,7 @@ BOOL CYXBrowser::PreTranslateMessage(MSG* pMsg)
 }
 ```
 
-###  四、隐藏网页的滚动条
+##  四、隐藏网页的滚动条
 
 这是最难处理的一个地方。不仅仅需要修改程序，而且需要web端的配合。
 
@@ -142,7 +142,7 @@ void CYXBrowser::HideScrollBar()
 ```
 注意，第三步是不可缺少的。
 
-### 五、屏蔽多次点击浏览器窗口的提示："服务器正在运行中"要选择"切换到..."或"重试"的对话框**
+## 五、屏蔽多次点击浏览器窗口的提示："服务器正在运行中"要选择"切换到..."或"重试"的对话框**
 
 在CClientBrowserDlg::OnInitDialog()中添加如下代码，
 
@@ -154,7 +154,7 @@ void CYXBrowser::HideScrollBar()
     AfxOleGetMessageFilter()->SetMessagePendingDelay(-1);
 ```
 
-### 六、点击网页打开系统默认浏览器
+## 六、点击网页打开系统默认浏览器
 
 第一步：绑定NEWWINDOW2事件。
 
@@ -209,7 +209,7 @@ void CYXBrowser::OnNewWindow2(LPDISPATCH* ppDisp, BOOL* bCancel)
 
 处理了六，五也就不需要了，因为点击网页不会再弹出IE浏览器了。
 
-###  七、为网页元素的添加事件处理：比如web按钮的点击等
+##  七、为网页元素的添加事件处理：比如web按钮的点击等
 
 第一步：继承CCmdTarget新建类CHtmlEventHandle，代码如下：
 
@@ -390,7 +390,7 @@ void CYXBrowser::OnDestroy()
 ```
 现在就可以在void CHtmlEventHandle::OnClick(MSHTML::IHTMLEventObjPtr pEvtObj)函数内捕获网页按钮之类的点击了。处理代码的思路是从当前元素开始，不断往上查找父元素，直到匹配的元素ID为止。
 
-### 八、判断url是否有效，如果无效则打开资源url，防止Web页面为空
+## 八、判断url是否有效，如果无效则打开资源url，防止Web页面为空
 
 ``` stylus
 //使用该函数判断url是否能打开

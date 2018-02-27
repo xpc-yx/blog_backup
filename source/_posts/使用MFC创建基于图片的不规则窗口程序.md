@@ -12,7 +12,7 @@ date: 2016-04-23 20:45:25
 
 
 
-### **第一步，在资源文件rc中设置对话框的属性**
+## **第一步，在资源文件rc中设置对话框的属性**
 
 Border：None
 
@@ -20,13 +20,13 @@ Style：Popup
 
 
 
-### **第二步，导入背景图片到程序资源中**
+## **第二步，导入背景图片到程序资源中**
 
 最好是导入位图，虽然也可以导入其它格式的图片。假设导入位图ID为IDB_BITMAP_BACK。
 
 
 
-### **第三步，在OnInitialDlg函数中，创建区域，并将其设置为窗口区域**
+## **第三步，在OnInitialDlg函数中，创建区域，并将其设置为窗口区域**
 
 ``` cpp?linenums
 //OnInitDialog()中
@@ -84,7 +84,7 @@ void CClientBrowserDlg::CreateRgn(CBitmap cBitmap, COLORREF dwColorKey, CRgn wnd
 }
 ```
 
-### **第四步，在OnPaint()绘制窗口背景图片**
+## **第四步，在OnPaint()绘制窗口背景图片**
 ``` cpp?linenums
 void CClientBrowserDlg::OnPaint()
 {
@@ -129,7 +129,7 @@ void CClientBrowserDlg::OnPaint()
 }
 ``` 
 
-### **第五步，点击客户区移动窗口**
+## **第五步，点击客户区移动窗口**
 
 这一点还是有意义的，比如上一篇定制IE浏览器窗口的文章，其外部窗口就是使用这里介绍的不规则窗体。不规则窗体由于是无边框的，因此无法点击边框移动窗口了。因此，设置点击客户端移动是有意义的。而**且窗口的内部区域已经被浏览器控件占据了，只有外部的边界区域可以点击到，因此这样刚好模拟出了点击正常窗口边框的效果。**
 
