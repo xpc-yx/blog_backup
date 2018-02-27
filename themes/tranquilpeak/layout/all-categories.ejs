@@ -49,7 +49,10 @@ function displayCategoriesAndPosts(category, depth) {
             // add current category to the parent of current child category
             childCategory.parents.push(category.name.toLowerCase());
 			var nextDepth = depth + 1;
-            html += displayCategoriesAndPosts(childCategory, nextDepth);
+			if (childCategory.name != "随想")
+			{
+				html += displayCategoriesAndPosts(childCategory, nextDepth);
+			}
         });
     }
     html += '</ul>';
@@ -62,7 +65,7 @@ function displayCategoriesAndPosts(category, depth) {
  * @param category
  * @returns {string}
  */
-function displayCategories(category) {
+function displayCategories(category) {	
     // get all its child categories
     var childCategories = site.categories.find({'parent': category._id});
     // init parents
@@ -89,7 +92,10 @@ function displayCategories(category) {
             childCategory.parents = category.parents.slice();
             // add current category to the parent of current child category
             childCategory.parents.push(category.name.toLowerCase());
-            html += displayCategories(childCategory);
+			if (childCategory.name != "随想")
+			{
+				html += displayCategories(childCategory);
+			}
         });
         html += '</ul>';
     }
