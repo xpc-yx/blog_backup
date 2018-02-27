@@ -2,7 +2,7 @@
 title: 使用Eigen解稀疏线性方程组
 tags:
   - Eigen
-  - 稀疏线性方程组
+  - 线性方程组
 id: 1560
 categories:
   - C/C++

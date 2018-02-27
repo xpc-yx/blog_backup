@@ -2,7 +2,7 @@
 title: 如何用OpenCV实现PCA降维
 tags:
   - OpenCV
-  - PCA降维
+  - PCA
 id: 1021
 categories:
   - 图像处理

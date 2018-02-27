@@ -1,7 +1,7 @@
 ---
 title: hdu 3068 最长回文 Manacher算法
 tags:
-  - 最长回文串
+  - 字符串
 id: 301
 categories:
   - ACM-ICPC

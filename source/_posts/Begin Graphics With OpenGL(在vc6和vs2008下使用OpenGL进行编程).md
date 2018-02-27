@@ -2,7 +2,6 @@
 title: Begin Graphics With OpenGL(在vc6和vs2008下使用OpenGL进行编程)
 tags:
   - OpenGL
-  - 图形学
 id: 318
 categories:
   - 图形学

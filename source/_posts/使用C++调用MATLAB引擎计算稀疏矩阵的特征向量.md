@@ -2,6 +2,7 @@
 title: 使用C++调用MATLAB引擎计算稀疏矩阵的特征向量
 tags:
   - 特征向量
+  - MATLAB
 id: 1492
 categories:
   - C/C++

@@ -1,7 +1,7 @@
 ---
 title: OpenGL渲染Obj模型(模型·材质·纹理)
 tags:
-  - obj模型
+  - 三维模型处理
   - 纹理
 id: 692
 categories:

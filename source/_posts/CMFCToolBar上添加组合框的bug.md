@@ -2,7 +2,6 @@
 title: CMFCToolBar上添加组合框的bug
 tags:
   - CMFCToolBar
-  - CMFCToolBarComboBoxButton
 id: 1030
 categories:
   - MFC

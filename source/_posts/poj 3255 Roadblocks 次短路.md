@@ -1,7 +1,8 @@
 ---
 title: poj 3255 Roadblocks 次短路
 tags:
-  - 次短路
+  - 枚举
+  - 搜索
 id: 250
 categories:
   - ACM-ICPC

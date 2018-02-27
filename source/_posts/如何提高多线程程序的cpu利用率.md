@@ -1,7 +1,7 @@
 ---
 title: 如何提高多线程程序的cpu利用率
 tags:
-  - 多线程
+  - 线程
 id: 572
 categories:
   - C/C++

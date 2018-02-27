@@ -2,6 +2,7 @@
 title: C++调用MATLAB引擎求解线性方程组
 tags:
   - 线性方程组
+  - MATLAB
 id: 1552
 categories:
   - C/C++

@@ -1,9 +1,10 @@
 ---
 title: '自定义可变参数函数BatchDelFile, 调用cmd批量删除指定格式文件, Windows界面下不回显Console窗口'
 tags:
+  - MFC
 id: 93
 categories:
-  - C/C++
+  - MFC
 date: 2012-01-03 10:00:00
 ---
 
