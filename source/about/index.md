@@ -3,7 +3,6 @@ title: 关于
 layout: page
 copyright: false
 actions: false
-date: 2018-02-26 13:20:36
 ---
 
 ## 关于我
