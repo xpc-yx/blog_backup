@@ -9,6 +9,7 @@ global:
     tag: "标签"
     archives: "归档"
     search: "搜索"
+    resume: "简历"
     about: "关于"
     author_picture: "作者的图片"
     github: "GitHub"

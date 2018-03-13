@@ -8,6 +8,17 @@
         var thumbnailImagePosition = theme.thumbnail_image_position;
         /* Define thumbnail image */
 
+		var NeedHide = false;
+		post.categories.forEach(function(category) {
+			if (category.name == "随想")
+			{
+				NeedHide = true;
+			}
+		});
+		if (NeedHide){
+			return;
+		}
+		
         // Define position of the thumbnail image
         if (!post.excerpt && !post.link) {
             thumbnailImagePosition = "bottom";
