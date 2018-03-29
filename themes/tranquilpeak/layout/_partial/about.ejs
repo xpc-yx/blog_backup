@@ -15,7 +15,9 @@
             <i class="fa fa-remove"></i>
         </div>
         <% if (authorPicture) { %>
-            <img id="about-card-picture" src="<%= authorPicture %>" alt="<%= __('global.author_picture') %>"/>
+			<a href="<%= config.url %>">
+				<img id="about-card-picture" src="<%= authorPicture %>" alt="<%= __('global.author_picture') %>"/>
+			</a>
         <% } %>
             <h4 id="about-card-name"><%= config.author %></h4>
         <% if (__('author.bio')) { %>
