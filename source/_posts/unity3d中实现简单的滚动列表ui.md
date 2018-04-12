@@ -1,12 +1,10 @@
 ---
 title: unity3d中实现简单的滚动列表ui
 tags:
-  - unity3d
-  - 滚动列表
+  - Unity3d
 id: 1638
 categories:
-  - 游戏开发
-  - - Unity3d
+  - Unity3d
 date: 2015-09-10 20:59:23
 ---
 
