@@ -365,3 +365,6 @@ return indices.length;
 上面代码中使用到的创建WebGL渲染环境、初始化着色器、创建矩阵的操作，读者可以自行找相应的代码库替代。
 或者在下面的链接中下载：
 [WebGL Lib](http://pan.baidu.com/s/1mhVH5Ba)， 密码：tncd。
+
+PPT文档如下：
+<iframe src='https://onedrive.live.com/embed?cid=4330CD349D9ADD44&resid=4330CD349D9ADD44%21732&authkey=AFfSKUvh2AFMJ7k&em=2&wdAr=1.3333333333333333' width='722px' height='565px' frameborder='0' allowfullscreen="allowfullscreen"> /iframe>
