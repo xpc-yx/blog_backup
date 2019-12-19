@@ -1,0 +1,140 @@
+<%
+/**
+ * Display all categories and posts of a category
+ * @param category
+ * @returns {string}
+ */
+function displayCategoriesAndPosts(category, depth) {
+    // get its posts
+    var posts = category.posts;
+    // get its child categories
+    var childCategories = site.categories.find({'parent': category._id});
+    // init its parents
+    var boxCSSClass = '';
+    if (category.parents === undefined) {
+        category.parents = [];
+        boxCSSClass = 'box';
+    }
+    // create post content
+    var html = '';
+    html += '<div id="posts-list-' + category.name + '" class="archive ' + boxCSSClass + '" ' +
+        'data-category="' + category.name.toLowerCase() + '" ' +
+        'data-parent-categories="' + category.parents.join(',') + '">';
+    // add category title
+    html += '<h4 class="archive-title text-xlarge">';
+    html += '<a class="link-unstyled" href="' + url_for(category.path) + '">';
+    html += category.name + ' (' + category.length + ')';
+    html += '</a>';
+    html += '</h4>';
+    html += '<ul class="archive-posts">';
+    // create html for its posts
+    posts.sort('date', 'desc').forEach(function(post) {
+		if (depth == post.categories.length - 1)
+		{
+			html += '<li class="archive-post">';
+			html += '<a class="archive-post-title" href="' + url_for(post.path) + '">';
+			html += post.title || '(' + __('post.no_title') + ')';
+			html += '</a>';
+			html += '<span class="archive-post-date">';
+			html += ' - ' + post.date.locale(page.lang).format(__('date_format'));
+			html += '</span>';
+			html += '</li>';
+		}
+    });
+    if (childCategories.length > 0) {
+        // recursive iteration on its child categories
+        childCategories.forEach(function(childCategory) {
+            // clone parents of current category to its child category
+            childCategory.parents = category.parents.slice();
+            // add current category to the parent of current child category
+            childCategory.parents.push(category.name.toLowerCase());
+			var nextDepth = depth + 1;
+			if (childCategory.name != "随想")
+			{
+				html += displayCategoriesAndPosts(childCategory, nextDepth);
+			}
+        });
+    }
+    html += '</ul>';
+    html += '</div>';
+    return html;
+}
+
+/**
+ * Display all categories of a category
+ * @param category
+ * @returns {string}
+ */
+function displayCategories(category) {	
+    // get all its child categories
+    var childCategories = site.categories.find({'parent': category._id});
+    // init parents
+    if (category.parents === undefined) {
+        category.parents = [];
+    }
+    // create category content
+    var html = '';
+    html += '<div>';
+    html += '<a href="#posts-list-' + category.name + '" ' +
+        'class="category-anchor" ' +
+        'data-category="' + category.name.toLowerCase() + '" ' +
+        'data-parent-categories="' + category.parents.join(',') + '">';
+    if (category.parent) {
+        html += ' / ';
+    }
+    html += category.name;
+    html += '</a>';
+    if (childCategories.length > 0) {
+        html += '<ul style="margin-bottom:0;">';
+        // recursive iteration on its child categories
+        childCategories.forEach(function(childCategory) {
+            // clone parents of current category to its child category
+            childCategory.parents = category.parents.slice();
+            // add current category to the parent of current child category
+            childCategory.parents.push(category.name.toLowerCase());
+			if (childCategory.name != "随想")
+			{
+				html += displayCategories(childCategory);
+			}
+        });
+        html += '</ul>';
+    }
+    html += '</div>';
+    return html;
+}
+
+function sortCategories(categories)
+{
+	var orders = [{name: "虚幻引擎", order: 0}, {name: "Unity3d", order: 1}, {name: "C/C++", order: 2}, {name: "图形学", order: 3},
+	{name: "图像处理", order: 4}, {name: "C#", order: 5}, {name: "MFC", order: 6}, {name: "算法", order: 7},
+	{name: "ACM-ICPC", order: 8}, {name: "生活", order: 9}];
+	
+	var newCategories = [];
+	
+	orders.forEach(function(order) {
+            categories.forEach(function(categorie) {
+				if (categorie.name == order.name){
+					newCategories.push(categorie);
+				}
+        });
+     });
+	 
+	 return newCategories;
+}
+%>
+<div id="categories-archives" class="outer">
+    <section class="outer">
+        <% sortCategories(site.categories).forEach(function(category) { %>
+            <% if (!category.parent) { %>
+                <%- displayCategories(category) %>
+            <% } %>
+        <% }); %>
+    </section>
+    <section class="outer">
+        <% sortCategories(site.categories).forEach(function(category) { %>
+            <% if (!category.parent) { %>
+                    <%- displayCategoriesAndPosts(category, 0) %>
+            <% } %>
+        <% }); %>
+    </section>
+</div>
