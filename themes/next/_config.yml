@@ -243,7 +243,7 @@ chat:
 excerpt_description: true
 
 auto_excerpt:
-  enable: true
+  enable: false
   length: 100
   
 # Read more button
@@ -288,7 +288,7 @@ reward:
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
 related_posts:
   enable: true
-  title: 相关文章推荐 # Custom header, leave empty to use the default one
+  title: 相关文章 # Custom header, leave empty to use the default one
   display_in_home: false
   params:
     maxCount: 5
@@ -724,7 +724,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true

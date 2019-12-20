@@ -1,7 +1,8 @@
 ---
 title: Unity3D代码规范
 tags:
-  - Unity3D代码规范
+  - Unity3D
+  - 代码规范
 categories:
   - Unity3d
 

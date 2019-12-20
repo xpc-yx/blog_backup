@@ -86,8 +86,6 @@ deploy:
     #coding: git@git.coding.net:xpc_yx/xpc_yx.coding.me.git
   branch: master
 
-excerpt.depth: 2
-
 archive_generator:
   per_page: 0  # 将每页文章数设为0，表示不需分页
   yearly: true
@@ -134,3 +132,9 @@ search:
   field: post
   format: html
   limit: 100
+  
+excerpt:
+  depth: 3
+  excerpt_excludes: []
+  more_excludes: []
+  hideWholePostExcerpts: true
