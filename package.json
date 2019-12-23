@@ -12,7 +12,6 @@
     "version": "4.1.1"
   },
   "dependencies": {
-    "algoliasearch": "^3.35.1",
     "hexo": "^4.1.1",
     "hexo-cli": "^3.1.0",
     "hexo-deployer-git": "^2.1.0",

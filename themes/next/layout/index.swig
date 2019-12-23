@@ -7,7 +7,17 @@
 
   <div class="posts-expand">
     {%- for post in page.posts.toArray() %}
-      {{ partial('_macro/post.swig', {post: post, is_index: true}) }}
+		{%- set not_render = false %}
+		{%- for category in post.categories.toArray() %}
+			{%- if category.name == '随想' %}
+				{%- set not_render = true %}
+			{%- endif %}
+		{%- endfor %}
+		
+		{%- if not_render == false %}
+			{{ partial('_macro/post.swig', {post: post, is_index: true}) }}
+	    {%- endif %}
+		
     {%- endfor %}
   </div>
 
