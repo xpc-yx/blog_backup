@@ -5,7 +5,8 @@ tags:
   - 数学
 id: 174
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-05-07 19:00:00
 ---
 

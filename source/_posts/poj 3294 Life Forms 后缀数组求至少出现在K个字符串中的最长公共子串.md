@@ -4,7 +4,8 @@ tags:
   - 字符串
 id: 299
 categories:
-  - ACM-ICPC
+  - 算法
+  - 算法题
 date: 2012-10-24 13:30:00
 ---
 

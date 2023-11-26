@@ -4,7 +4,8 @@ tags:
   - DebugView
 id: 2081
 categories:
-  - C/C++
+  - 编程语言 
+  - C++
 date: 2016-08-15 20:48:18
 ---
 

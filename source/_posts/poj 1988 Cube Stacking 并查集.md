@@ -4,7 +4,8 @@ tags:
   - 并查集
 id: 278
 categories:
-  - ACM-ICPC
+  - 算法
+  - 算法题
 date: 2012-10-10 10:00:00
 ---
 

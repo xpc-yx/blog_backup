@@ -3,7 +3,8 @@ title: poj 1265 Area
 tags:
 id: 203
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-06-28 16:00:00
 ---
 

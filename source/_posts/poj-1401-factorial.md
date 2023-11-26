@@ -3,7 +3,8 @@ title: poj 1401 Factorial
 tags:
 id: 223
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-07-16 21:30:00
 ---
 

@@ -3,7 +3,8 @@ title: poj 2823 Sliding Window 单调队列
 tags:
 id: 248
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-09-02 10:00:00
 ---
 

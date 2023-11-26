@@ -3,7 +3,8 @@ title: C++的设计优化
 tags:
 id: 567
 categories:
-  - C/C++
+  - 编程语言 
+  - C++
 date: 2012-12-17 11:12:34
 ---
 

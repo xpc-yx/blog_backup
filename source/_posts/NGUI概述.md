@@ -2,10 +2,11 @@
 title: NGUI概述
 tags:
   - NGUI
-  - Unity3D
+  - Unity
 id: 2163
 categories:
-  - Unity3d
+  - 游戏开发
+  - Unity
 
 date: 2017-01-12 17:15:51
 feature: https://c1.staticflickr.com/1/782/31420422424_657c6cee61_o.png
@@ -22,7 +23,7 @@ NGUI是一个提供高效事件通知框架的强大UI系统。NGUI遵循[Kiss�
 ## NGUI下载
 
 我们可以从unity商店购买NGUI，或者下载其免费版本。
-[NGUI的Unity商店](https://www.assetstore.unity3d.com/cn/#!/content/2413)
+[NGUI的Unity商店](https://www.assetstore.Unity.com/cn/#!/content/2413)
 当然也可以下载网上其它人提供的版本学习研究。
 [NGUI 3.10.2](http://www.ceeger.com/forum/read.php?tid=20718fid=16)
 

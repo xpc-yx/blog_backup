@@ -5,7 +5,8 @@ tags:
   - 数论
 id: 262
 categories:
-  - ACM-ICPC
+  - 算法
+  - 算法题
 date: 2012-09-18 10:00:00
 ---
 

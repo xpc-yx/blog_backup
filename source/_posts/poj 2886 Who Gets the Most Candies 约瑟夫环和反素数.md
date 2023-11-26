@@ -2,7 +2,8 @@
 title: poj 2886 Who Gets the Most Candies? 约瑟夫环和反素数
 id: 258
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-09-14 10:00:00
 tags:
   - 约瑟夫环

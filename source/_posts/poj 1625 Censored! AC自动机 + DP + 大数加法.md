@@ -4,7 +4,8 @@ tags:
   - 自动机
 id: 293
 categories:
-  - ACM-ICPC
+  - 算法
+  - 算法题
 date: 2012-10-20 18:30:00
 ---
 

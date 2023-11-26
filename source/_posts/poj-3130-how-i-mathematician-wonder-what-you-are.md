@@ -3,7 +3,8 @@ title: poj 3130 How I Mathematician Wonder What You Are!
 tags:
 id: 207
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-07-03 12:30:00
 ---
 

@@ -4,7 +4,8 @@ tags:
   - 二分
 id: 209
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-07-05 18:30:00
 ---
 

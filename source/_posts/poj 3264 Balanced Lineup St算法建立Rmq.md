@@ -4,7 +4,8 @@ tags:
   - 动态规划
 id: 303
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-10-25 18:30:00
 ---
 

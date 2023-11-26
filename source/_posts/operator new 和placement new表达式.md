@@ -3,7 +3,8 @@ title: operator new 和placement new表达式
 tags:
 id: 1274
 categories:
-  - C/C++
+  - 编程语言 
+  - C++
 date: 2014-07-31 20:24:26
 ---
 

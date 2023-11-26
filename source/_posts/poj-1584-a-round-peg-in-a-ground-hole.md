@@ -3,7 +3,8 @@ title: poj 1584 A Round Peg in a Ground Hole
 tags:
 id: 205
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-06-30 20:00:00
 ---
 

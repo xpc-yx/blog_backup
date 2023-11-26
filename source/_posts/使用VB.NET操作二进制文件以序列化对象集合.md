@@ -3,6 +3,7 @@ title: 使用VB.NET操作二进制文件以序列化对象集合
 tags:
 id: 831
 categories:
+  - 编程语言
   - C#
 date: 2013-06-05 09:09:04
 ---

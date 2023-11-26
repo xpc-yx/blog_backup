@@ -3,7 +3,8 @@ title: 使用STL容器的一些常识
 tags:
 id: 505
 categories:
-  - C/C++
+  - 编程语言 
+  - C++
   - STL
 date: 2012-11-28 14:26:55
 ---

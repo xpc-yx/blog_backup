@@ -3,7 +3,8 @@ title: delete NULL是安全的
 tags:
 id: 1433
 categories:
-  - C/C++
+  - 编程语言 
+  - C++
 date: 2014-11-27 22:13:51
 ---
 

@@ -4,7 +4,8 @@ tags:
   - 背包问题
 id: 246
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-08-30 22:30:00
 ---
 

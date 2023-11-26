@@ -4,7 +4,8 @@ tags:
   - 后缀数组
 id: 297
 categories:
-  - ACM-ICPC
+  - 算法
+  - 算法题
 date: 2012-10-23 12:30:00
 ---
 

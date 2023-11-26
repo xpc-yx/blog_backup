@@ -4,7 +4,8 @@ tags:
   - 搜索
 id: 140
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-03-30 10:00:00
 ---
 

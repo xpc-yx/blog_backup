@@ -4,7 +4,8 @@ tags:
   - exit函数
 id: 1361
 categories:
-  - C/C++
+  - 编程语言 
+  - C++
 date: 2014-10-31 16:39:05
 ---
 

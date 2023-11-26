@@ -4,7 +4,8 @@ tags:
   - 数学
 id: 160
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-04-14 10:00:00
 ---
 

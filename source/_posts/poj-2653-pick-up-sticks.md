@@ -4,7 +4,8 @@ tags:
   - 直线相交
 id: 190
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-06-17 14:30:00
 ---
 

@@ -4,7 +4,8 @@ tags:
   - 数论
 id: 264
 categories:
-  - ACM-ICPC
+  - 算法
+  - 算法题
 date: 2012-09-24 10:30:00
 ---
 

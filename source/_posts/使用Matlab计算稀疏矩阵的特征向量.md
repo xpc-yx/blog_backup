@@ -5,7 +5,7 @@ tags:
   - MATLAB
 id: 1478
 categories:
-  - 生活
+  - 算法
 date: 2015-01-12 17:03:06
 ---
 

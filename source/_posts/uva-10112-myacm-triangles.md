@@ -3,7 +3,8 @@ title: uva 10112 - Myacm Triangles
 tags:
 id: 172
 categories:
-  - ACM-ICPC
+  - 算法
+  - 算法题
 date: 2012-05-07 15:00:00
 ---
 

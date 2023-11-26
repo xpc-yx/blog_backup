@@ -4,7 +4,8 @@ tags:
   - 高斯消元
 id: 243
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-08-06 13:00:00
 ---
 

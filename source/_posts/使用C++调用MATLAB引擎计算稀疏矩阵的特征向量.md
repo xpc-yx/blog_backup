@@ -5,7 +5,8 @@ tags:
   - MATLAB
 id: 1492
 categories:
-  - C/C++
+  - 编程语言 
+  - C++
 date: 2015-01-20 21:43:19
 ---
 

@@ -3,7 +3,8 @@ title: hdu 3627 Giant For
 tags:
 id: 215
 categories:
-  - ACM-ICPC
+  - 算法
+  - 算法题
 date: 2012-07-11 11:00:00
 ---
 

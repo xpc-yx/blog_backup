@@ -127,7 +127,7 @@ void CClientBrowserDlg::OnPaint()
         CDialog::OnPaint();
     }
 }
-``` 
+```
 
 ## **第五步，点击客户区移动窗口**
 

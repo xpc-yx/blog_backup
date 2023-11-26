@@ -4,7 +4,8 @@ tags:
   - stl源码剖析
 id: 1606
 categories:
-  - C/C++
+  - 编程语言 
+  - C++
   - STL
 date: 2015-06-10 11:44:42
 ---

@@ -3,7 +3,8 @@ title: 'POJ百练 - 2820:古代密码 AND POJ百练 - 2801:填词'
 tags:
 id: 61
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2011-11-18 10:00:00
 ---
 

@@ -4,7 +4,8 @@ tags:
   - 凸包
 id: 211
 categories:
-  - ACM-ICPC
+  - 算法 
+  - 算法题
 date: 2012-07-07 21:00:00
 ---
 
