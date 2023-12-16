@@ -3,6 +3,7 @@ title: Unity下的日式卡通渲染实现-描边篇（三）
 tags: 
 - 日式卡通渲染
 category:
+- 图形学
 - Rendering
 date: 2022-03-12 20:18:30
 renderNumberedHeading: false

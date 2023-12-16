@@ -5,6 +5,7 @@ tags:
 - 相机堆栈
 - 后处理抗锯齿
 category: 
+- 图形学
 - Rendering
 date: 2021-12-28 11:10:00
 renderNumberedHeading: false

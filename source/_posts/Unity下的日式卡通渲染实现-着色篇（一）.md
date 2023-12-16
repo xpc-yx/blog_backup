@@ -3,6 +3,7 @@ title: Unity下的日式卡通渲染实现-着色篇（一）
 tags: 
 - 日式卡通渲染
 category:
+- 图形学
 - Rendering
 date: 2022-01-22 15:10:00
 renderNumberedHeading: false

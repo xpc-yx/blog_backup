@@ -3,6 +3,7 @@ title: Unity下的日式卡通渲染实现-阴影篇（二）
 tags: 
 - 日式卡通渲染
 category:
+- 图形学
 - Rendering
 date: 2022-02-26 18:20:00
 renderNumberedHeading: false
